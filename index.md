@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "RedShift is a customizable and extensable platform delivery as code toolbelt"
 permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 ---
@@ -10,12 +10,10 @@ last_modified_date: 2020-04-27T17:54:08+0000
 # RedShift Official | Platform Delivery as Code
 {: .fs-9 }
 
-RedShift gives you the tooling and automation to prepare and deploy restricted
-and airgapped infrastructure, middleware, and applications on the OpenShift
-Platform
+RedShift gives you the tooling and automation to prepare and deploy restricted and airgapped infrastructure, middleware, and applications on the OpenShift Platform
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/redshiftofficial){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/RedShiftOfficial){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 

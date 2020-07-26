@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: RedShift
 description: Platform Delivery as Code
-baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
+#baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
 url: "https://buildredshift.io"
 
 permalink: pretty
