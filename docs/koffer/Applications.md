@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Applications
-parent: Koffer
+parent: koffer
 nav_order: 3
 ---
 

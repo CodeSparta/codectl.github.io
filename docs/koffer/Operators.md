@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Operators
-parent: Koffer
+parent: koffer
 nav_order: 2
 ---
 

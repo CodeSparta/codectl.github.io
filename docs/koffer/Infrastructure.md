@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Infrastructure
-parent: Koffer
+parent: koffer
 nav_order: 1
 ---
 
