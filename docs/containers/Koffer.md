@@ -1,3 +1,10 @@
+---
+layout: default
+title: Koffer
+parent: Containers
+nav_order: 1
+---
+
 # Koffer
 ## Artifact Rake & Bundle Appliance
 ## About
