@@ -16,7 +16,6 @@
 title: RedShift
 description: Platform Delivery as Code
 baseurl: "/" # the subpath of your site, e.g. /blog
-#baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
 url: "https://buildredshift.io"
 
 permalink: pretty
