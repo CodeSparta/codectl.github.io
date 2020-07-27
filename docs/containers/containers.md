@@ -6,7 +6,13 @@ has_children: true
 permalink: /docs/containers
 ---
 
-# UI Components
+# Containers
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+RedShift automation runs within strategically created deployment engine containers enabling:
+  1. More portable code behind airgaps and restricted networks
+  2. Smaller code maintenance surface area
+  3. Long term stable release cuts
+  4. Consistent automation behavior
+  5. Airgap DevSecOps Pipeline Compatibility
+
 {: .fs-6 .fw-300 }
