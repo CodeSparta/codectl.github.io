@@ -13,7 +13,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 Platform Delivery as Code Ecosystem
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/RedShiftOfficial){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View it on GitHub](https://github.com/RedShiftOfficial){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
 ---
