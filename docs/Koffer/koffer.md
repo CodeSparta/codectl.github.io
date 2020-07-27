@@ -8,8 +8,8 @@ permalink: /docs/Koffer
 
 # Koffer
 
-The koffer engine provides a low side artifact raking system and dependency 
-resolution container with an entrypoint designed to consume arbitrary artifact
-collection automation repos.
+The koffer engine provides a plugable low side artifact raking system and 
+dependency resolution container with an entrypoint designed to consume arbitrary
+artifact collection automation repos.
 
 {: .fs-6 .fw-300 }
