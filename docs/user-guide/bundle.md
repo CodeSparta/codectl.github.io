@@ -44,5 +44,7 @@ nav_order: 1
 #### 5. Continue [Artifacts AirGap Pivot](./PIVOT.md)
 
 ------------------------------------------------------------------------------
+# Demo
+![bundle](./web/bundle.svg)
 
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
