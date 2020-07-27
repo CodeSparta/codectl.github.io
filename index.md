@@ -63,20 +63,14 @@ One set of Admin level AWS account credentials are required for this deployment.
 
 ---
 ## About the project
-
-Just the Docs is &copy; 2020-{{ "now" | date: "%Y" }} by [ContainerCraft.io](https://containercraft.io).
-
 ### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
+RedShift is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
 
 ### Contributing
-
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/redshiftofficial/redshiftofficial.github.io#contributing).
 
 #### Thank you to our contributors!
-
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
@@ -86,7 +80,7 @@ email, or any other method with the owners of this repository before making a ch
 </ul>
 
 ### Code of Conduct
-
 Just the Docs is committed to fostering a welcoming community.
-
 [View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+
+RedShift is &copy; 2020-{{ "now" | date: "%Y" }} by [ContainerCraft.io](https://containercraft.io).
