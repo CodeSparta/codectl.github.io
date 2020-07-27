@@ -56,7 +56,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "RedShift on GitHub":
+  "RedShift Official Platform on GitHub":
     - "//github.com/redshiftofficial"
 
 # Makes Aux links open in a new tab. Default is false
