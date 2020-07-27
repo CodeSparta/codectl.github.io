@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Koffer Plugins
+title: Collector Plugins
 nav_order: 3
 has_children: true
 permalink: /docs/koffer
@@ -8,7 +8,5 @@ permalink: /docs/koffer
 
 # Koffer
 
-The koffer engine provides a plugable low side artifact raking system and 
-dependency resolution container with an entrypoint designed to consume arbitrary
-artifact collection automation repos.
+Collector Plugins operate the Koffer Engine to bundle artifacts for transfer to secure environment high side via standardized raking system to consume arbitrary artifacts including git repos, terraform modules, and container images.
 {: .fs-6 .fw-300 }
