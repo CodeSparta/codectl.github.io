@@ -1,1 +1,2 @@
-`openshift-install` binary test builder
+# openshift-install-mod
+binary test builder
