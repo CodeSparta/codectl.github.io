@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Infrastructure
-parent: koffer
+parent: Collector Plugins
 nav_order: 1
 ---
 

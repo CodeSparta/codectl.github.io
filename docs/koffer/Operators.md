@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Operators
-parent: koffer
+parent: Collector Plugins
 nav_order: 2
 ---
 

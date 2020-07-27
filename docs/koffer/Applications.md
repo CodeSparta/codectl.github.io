@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Applications
-parent: koffer
+parent: Collector Plugins
 nav_order: 3
 ---
 
