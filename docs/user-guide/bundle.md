@@ -20,7 +20,7 @@ nav_order: 1
  sudo podman run \
      --volume /tmp/platform:/root/deploy:z     \
      --rm -it --entrypoint=/usr/bin/entrypoint \
-   docker.io/redshiftofficial/koffer:latest      \
+   docker.io/ocpredshift/koffer:latest      \
    https://github.com/RedShiftOfficial/collector-infra.git latest
 ```
 #### 3. Build Operator Selections Bundle
@@ -29,7 +29,7 @@ nav_order: 1
      --privileged --device /dev/fuse \
      --entrypoint=/usr/bin/entrypoint \
      --volume /tmp/platform:/root/deploy:z \
-   docker.io/redshiftofficial/koffer:nightlies \
+   docker.io/ocpredshift/koffer:nightlies \
    https://github.com/RedShiftOfficial/collector-operators.git master
 ```
 #### 4. Build Application Images Bundle
@@ -38,7 +38,7 @@ nav_order: 1
      --entrypoint=/usr/bin/entrypoint \
      --volume /tmp/platform:/root/deploy:z \
      --volume /tmp/platform/secrets/docker/quay.json:/root/.docker/config.json:ro \
-  docker.io/redshiftofficial/koffer:latest \
+  docker.io/ocpredshift/koffer:latest \
   https://github.com/RedShiftOfficial/collector-apps.git latest
 ```
 #### 5. Continue [Artifacts AirGap Pivot](./PIVOT.md)
