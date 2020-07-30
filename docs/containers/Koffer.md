@@ -24,7 +24,7 @@ Compatibile Artifact Types:
   - capability to add more artifact types with custom collector ansible plugins
 
 ## Product
-Koffer produces a CloudCtl ready archive at `/tmp/koffer/bundle/koffer-bundle.*.tar.xz`
+Koffer produces a standardized tarball on the host at `/tmp/koffer/bundle/koffer-bundle.*.tar.xz`
 
 ## Example Run
   - example with [koffer-infra](https://github.com/RedShiftOfficial/collector-infra) collector plugin    
