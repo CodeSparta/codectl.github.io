@@ -5,14 +5,14 @@ parent: Containers
 nav_order: 1
 ---
 
-# Koffer
+# Koffer Engine
 ## Artifact Rake & Bundle Appliance
 ## About
 
-Koffer is an ansible automation runtime for raking in various artifacts required 
-to deploy Kubernetes Infrastructure, Pipelines, and applications into airgaped 
-environments. Koffer is strictly an ansible consumer and requires run against an 
-external repo volume cloned or mounted to `/root/koffer`.
+Koffer Engine is an ansible automation runtime for raking in various artifacts
+required to deploy [Red Hat] [UPI] [OpenShift] Infrastructure, Pipelines, and
+applications into airgaped environments. Koffer is strictly an empty engine and
+is designed to run against compliant external collector plugin repos.
 
 Compatibile Artifact Types:
   - git
@@ -27,7 +27,7 @@ Compatibile Artifact Types:
 Koffer produces a standardized tarball on the host at `/tmp/koffer/bundle/koffer-bundle.*.tar.xz`
 
 ## Example Run
-  - example with [koffer-infra](https://github.com/RedShiftOfficial/collector-infra) ansible automation    
+  - example with [koffer-infra](https://github.com/RedShiftOfficial/collector-infra) collector plugin    
     
 ### 1. Create Koffer Bundle Directory
 ```
@@ -46,3 +46,7 @@ mkdir /tmp/platform
 ```
  du -sh /tmp/platform/bundle/*
 ```
+    
+[UPI]:https://www.openshift.com/blog/deploying-a-upi-environment-for-openshift-4-1-on-vms-and-bare-metal
+[Red Hat]:https://www.redhat.com
+[OpenShift]:https://www.openshift.com
