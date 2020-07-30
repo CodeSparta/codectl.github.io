@@ -28,10 +28,12 @@ Koffer produces a standardized tarball on the host at `/tmp/koffer/bundle/koffer
 
 ## Example Run
 ### 1. Create Koffer Bundle Directory
-  - example with [koffer-infra](https://github.com/RedShiftOfficial/collector-infra) ansible automation
+  - example with [koffer-infra](https://github.com/RedShiftOfficial/collector-infra) ansible automation    
+    
 ```
 mkdir /tmp/platform
 ```
+    
 ### 2. Run Koffer
 ```
  sudo podman run --name koffer \
