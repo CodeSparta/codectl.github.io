@@ -27,9 +27,9 @@ Compatibile Artifact Types:
 Koffer produces a standardized tarball on the host at `/tmp/koffer/bundle/koffer-bundle.*.tar.xz`
 
 ## Example Run
-### 1. Create Koffer Bundle Directory
   - example with [koffer-infra](https://github.com/RedShiftOfficial/collector-infra) ansible automation    
     
+### 1. Create Koffer Bundle Directory
 ```
 mkdir /tmp/platform
 ```
