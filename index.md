@@ -2,18 +2,18 @@
 layout: default
 title: Home
 nav_order: 1
-description: "RedShift is a customizable and extensable platform delivery as code toolbelt"
+description: "CodeSparta is a customizable and extensable platform delivery as code toolbelt"
 permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 ---
 
-# RedShift Official
+# CodeSparta Official
 {: .fs-9 }
 
 Platform Delivery as Code Ecosystem
 {: .fs-6 .fw-300 }
 
-[Find on GitHub](https://github.com/RedShiftOfficial){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Find on GitHub](https://github.com/CodeSparta){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 ## About
@@ -64,7 +64,7 @@ One set of Admin level AWS account credentials are required for this deployment.
 ---
 ## About the project
 ### License
-RedShift is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
+CodeSparta is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
 
 ### Contributing
 When contributing to this repository, please first discuss the change you wish to make via issue,
@@ -83,4 +83,4 @@ email, or any other method with the owners of this repository before making a ch
 Just the Docs is committed to fostering a welcoming community.
 [View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
 
-RedShift is &copy; 2020-{{ "now" | date: "%Y" }} by [ContainerCraft.io](https://containercraft.io).
+CodeSparta is &copy; 2020-{{ "now" | date: "%Y" }} by [ContainerCraft.io](https://containercraft.io).
