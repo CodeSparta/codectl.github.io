@@ -21,7 +21,7 @@ nav_order: 1
      --volume /tmp/platform:/root/deploy:z     \
      --rm -it --entrypoint=/usr/bin/entrypoint \
    docker.io/ocpredshift/koffer:latest      \
-   https://github.com/RedShiftOfficial/collector-infra.git latest
+   https://github.com/CodeSparta/collector-infra.git latest
 ```
     
 #### 3. Build Operator Selection Bundle
@@ -31,7 +31,7 @@ nav_order: 1
      --entrypoint=/usr/bin/entrypoint \
      --volume /tmp/platform:/root/deploy:z \
    docker.io/ocpredshift/koffer:nightlies \
-   https://github.com/RedShiftOfficial/collector-operators.git master
+   https://github.com/CodeSparta/collector-operators.git master
 ```
     
 #### 4. Build Application Images Bundle
@@ -41,7 +41,7 @@ nav_order: 1
      --volume /tmp/platform:/root/deploy:z \
      --volume /tmp/platform/secrets/docker/quay.json:/root/.docker/config.json:ro \
   docker.io/ocpredshift/koffer:latest \
-  https://github.com/RedShiftOfficial/collector-apps.git latest
+  https://github.com/CodeSparta/collector-apps.git latest
 ```
     
 #### 5. Continue [Artifacts AirGap Pivot](./PIVOT.md)
@@ -50,7 +50,7 @@ nav_order: 1
 # Demo
 ![bundle](./web/bundle.svg)
 
-[Operators]:https://github.com/RedShiftOfficial/collector-operators
-[Applications]:https://github.com/RedShiftOfficial/collector-apps
-[Infrastructure]:https://github.com/RedShiftOfficial/collector-infra
+[Operators]:https://github.com/CodeSparta/collector-operators
+[Applications]:https://github.com/CodeSparta/collector-apps
+[Infrastructure]:https://github.com/CodeSparta/collector-infra
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned

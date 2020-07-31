@@ -8,7 +8,7 @@ permalink: /docs/user-guide
 
 # User Guide
 
-This provides basic Koffer & Konductor automation instructions to prepare & provision a RedShift platform.
+This provides basic Koffer & Konductor automation instructions to prepare & provision a CodeSparta platform.
 
 ## Requirements
 
