@@ -2,9 +2,9 @@
   "name": "just-the-docs",
   "version": "0.3.1",
   "description": "A modern Jekyll theme for documentation",
-  "repository": "https://github.com/RedShiftOfficial/redshiftofficial.github.io",
+  "repository": "https://github.com/CodeSparta/codectl.github.io",
   "license": "MIT",
-  "bugs": "https://github.com/RedShiftOfficial/redshiftofficial.github.io/issues",
+  "bugs": "https://github.com/CodeSparta/codectl.github.io/issues",
   "devDependencies": {
     "@primer/css": "^14.4.0",
     "prettier": "^2.0.5",

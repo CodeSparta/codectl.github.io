@@ -27,7 +27,7 @@ Compatibile Artifact Types:
 Koffer produces a standardized tarball on the host at `/tmp/koffer/bundle/koffer-bundle.*.tar.xz`
 
 ## Example Run
-  - example with [koffer-infra](https://github.com/RedShiftOfficial/collector-infra) collector plugin    
+  - example with [koffer-infra](https://github.com/CodeSparta/collector-infra) collector plugin    
     
 ### 1. Create Koffer Bundle Directory
 ```
@@ -40,7 +40,7 @@ mkdir /tmp/platform
     --volume /tmp/platform:/root/deploy:z     \
     --rm -it --entrypoint=/usr/bin/entrypoint \
   docker.io/ocpredshift/koffer:latest         \
-    https://github.com/RedShiftOfficial/collector-infra.git latest
+    https://github.com/CodeSparta/collector-infra.git latest
 ```
 ### 3. Verify Bundle
 ```

@@ -8,7 +8,7 @@ permalink: /docs/containers
 
 # Containers
 
-RedShift automation runs within strategically created deployment engine containers enabling:
+Sparta automation runs within strategically created deployment engine containers enabling:
   1. More portable code behind airgaps and restricted networks
   2. Smaller code maintenance surface area
   3. Long term stable release cuts
