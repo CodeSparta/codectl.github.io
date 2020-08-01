@@ -17,11 +17,9 @@ nav_order: 1
   - Paste [Quay.io Image Pull Secret] when prompted    
     
 ```
- sudo podman run \
-     --volume /tmp/platform:/root/deploy:z     \
-     --rm -it --entrypoint=/usr/bin/entrypoint \
-   docker.io/ocpredshift/koffer:latest      \
-   https://github.com/CodeSparta/collector-infra.git latest
+ sudo podman run -it --rm \
+    --volume /tmp/platform:/root/deploy:z \
+  docker.io/codesparta/koffer -branch latest
 ```
     
 #### 3. Build Operator Selection Bundle
