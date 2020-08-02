@@ -19,7 +19,7 @@ nav_order: 1
 ```
  sudo podman run -it --rm \
     --volume /tmp/platform:/root/deploy:z \
-  docker.io/codesparta/koffer -branch latest
+  docker.io/codesparta/koffer -repo collector-apps -branch latest
 ```
     
 #### 3. Build Operator Selection Bundle
@@ -34,12 +34,9 @@ nav_order: 1
     
 #### 4. Build Application Images Bundle
 ```
- sudo podman run -it --rm \
-     --entrypoint=/usr/bin/entrypoint \
-     --volume /tmp/platform:/root/deploy:z \
-     --volume /tmp/platform/secrets/docker/quay.json:/root/.docker/config.json:ro \
-  docker.io/ocpredshift/koffer:latest \
-  https://github.com/CodeSparta/collector-apps.git latest
+sudo podman run -it --rm \
+    --volume /tmp/platform:/root/deploy:z
+  docker.io/codesparta/koffer -repo collector-apps
 ```
     
 #### 5. Continue [Artifacts AirGap Pivot](./PIVOT.md)
