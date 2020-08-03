@@ -9,11 +9,11 @@ nav_order: 1
 ## Red Hat OpenShift 4.5+ | Low Side | Artifact Collection
 #### Koffer Collector Plugins [Infrastructure] - [Operators] - [Applications]   
 
-#### 1. Create Platform Artifacts Staging Directory
+  1. Create Platform Artifacts Staging Directory
 ```
  mkdir -p /tmp/bundle ;
 ```
-#### 2. Build Openshift Infrastructure, Operators, & App Bundles
+  2. Build Openshift Infrastructure, Operators, & App Bundles
   - Paste [Quay.io Image Pull Secret] when prompted    
     
 ```
@@ -25,7 +25,7 @@ nav_order: 1
      --repo collector-operators \
      --repo collector-apps
 ```
-#### 3. Review your artifacts
+  3. Review your artifacts
 ```
  ls -lah /tmp/bundle ;
 ```
