@@ -13,22 +13,17 @@ nav_order: 1
 ```
  mkdir -p /tmp/platform ;
 ```
-#### 2. Build Openshift Infrastructure Bundle
+#### 2. Build Openshift Infrastructure & Apps Bundles
   - Paste [Quay.io Image Pull Secret] when prompted    
     
 ```
  sudo podman run -it --rm \
     --volume /tmp/platform:/root/deploy:z \
-  docker.io/codesparta/koffer -branch latest
+  docker.io/codesparta/koffer \
+    --repo collector-apps \
+    --repo collector-infra
 ```
-    
-#### 3. Build Application Images Bundle
-```
-sudo podman run -it --rm \
-    --volume /tmp/platform:/root/deploy:z
-  docker.io/codesparta/koffer -repo collector-apps
-```
-#### 4. Build Operator Selection Bundle
+#### 3. Build Operator Selection Bundle
 ```
  sudo podman run -it --rm \
      --privileged --device /dev/fuse \
@@ -39,7 +34,7 @@ sudo podman run -it --rm \
 ```
     
     
-#### 5. Continue [Artifacts AirGap Pivot](./PIVOT.md)
+#### 4. Continue [Artifacts AirGap Pivot](./PIVOT.md)
 
 ------------------------------------------------------------------------------
 # Demo
