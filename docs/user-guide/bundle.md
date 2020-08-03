@@ -18,9 +18,8 @@ nav_order: 1
     
 #### 2. Build Operator Selection Bundle
 ```
- sudo podman run -it --rm --pull always\
+ sudo podman run -it --rm \
      --privileged --device /dev/fuse \
-     --entrypoint=/usr/bin/entrypoint \
      --volume /tmp/bundle:/root/deploy/bundle:z \
    docker.io/codesparta/koffer bundle \
      --repo collector-infra \
