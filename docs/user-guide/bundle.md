@@ -27,7 +27,7 @@ nav_order: 1
 ```
 #### 3. Review your artifacts
 ```
- mkdir -p /tmp/bundle ;
+ ls -lah /tmp/bundle ;
 ```
     
     
