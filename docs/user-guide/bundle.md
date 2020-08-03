@@ -19,7 +19,7 @@ nav_order: 1
 ```
  sudo podman run -it --rm \
     --volume /tmp/platform:/root/deploy:z \
-  docker.io/codesparta/koffer -repo collector-apps -branch latest
+  docker.io/codesparta/koffer -branch latest
 ```
     
 #### 3. Build Application Images Bundle
