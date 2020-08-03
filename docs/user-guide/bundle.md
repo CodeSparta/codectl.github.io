@@ -25,9 +25,13 @@ nav_order: 1
      --repo collector-operators \
      --repo collector-apps
 ```
+#### 3. Review your artifacts
+```
+ mkdir -p /tmp/bundle ;
+```
     
     
-#### 3. Continue [Artifacts AirGap Pivot](./PIVOT.md)
+#### Continue [Artifacts AirGap Pivot](https://codectl.io/docs/user-guide/airgap)
 
 ------------------------------------------------------------------------------
 # Demo
