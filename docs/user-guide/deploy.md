@@ -20,7 +20,5 @@ nav_order: 3
     
   3. Follow Prompts
     
-------------------------------------------------------------------------------
-    
 [CloudCtl]:https://github.com/CodeSparta/CloudCtl
 [Konductor]:https://github.com/CodeSparta/Konductor
