@@ -15,6 +15,7 @@ nav_order: 1
 ```
   2. Build Openshift Infrastructure, Operators, & App Bundles
   - Paste [Quay.io Image Pull Secret] when prompted
+    
 ```
  sudo podman run -it --rm \
      --privileged --device /dev/fuse \
