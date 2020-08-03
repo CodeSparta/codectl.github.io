@@ -19,9 +19,9 @@ nav_order: 1
 ```
  sudo podman run -it --rm \
     --volume /tmp/platform:/root/deploy:z \
-  docker.io/codesparta/koffer \
-    --repo collector-apps \
-    --repo collector-infra
+  docker.io/codesparta/koffer bundle \
+    --repo collector-infra \
+    --repo collector-apps
 ```
 #### 3. Build Operator Selection Bundle
 ```
