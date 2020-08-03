@@ -15,13 +15,13 @@ nav_order: 1
 ```
   2. Build Openshift Infrastructure, Operators, & App Bundles
 ```
- sudo podman run -it --rm \
-     --privileged --device /dev/fuse \
-     --volume /tmp/bundle:/root/deploy/bundle:z \
-   docker.io/codesparta/koffer bundle \
-     --repo collector-infra \
-     --repo collector-operators \
-     --repo collector-apps
+sudo podman run -it --rm \
+    --privileged --device /dev/fuse \
+    --volume /tmp/bundle:/root/deploy/bundle:z \
+  docker.io/codesparta/koffer bundle \
+    --repo collector-infra \
+    --repo collector-operators \
+    --repo collector-apps
 ```
   - Paste [Quay.io Image Pull Secret] when prompted
     
