@@ -7,8 +7,11 @@ nav_order: 1
 
 # Bundle
 ## Red Hat OpenShift 4.5+ | Low Side | Artifact Collection
-#### Koffer Collector Plugins [Infrastructure] - [Operators] - [Applications]   
-
+#### Koffer Collector Plugins
+  - [Infrastructure]    
+  - [Operators]    
+  - [Applications]    
+    
   1. Create Platform Artifacts Staging Directory
 ```
  mkdir -p /tmp/bundle ;
