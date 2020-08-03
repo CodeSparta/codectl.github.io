@@ -22,7 +22,7 @@ nav_order: 1
      --privileged --device /dev/fuse \
      --entrypoint=/usr/bin/entrypoint \
      --volume /tmp/bundle:/root/deploy/bundle:z \
-   docker.io/ocpredshift/koffer bundle \
+   docker.io/codesparta/koffer bundle \
      --repo collector-infra \
      --repo collector-operators \
      --repo collector-apps
