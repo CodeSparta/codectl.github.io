@@ -14,7 +14,6 @@ nav_order: 1
  mkdir -p /tmp/bundle ;
 ```
   2. Build Openshift Infrastructure, Operators, & App Bundles
-    - Paste [Quay.io Image Pull Secret] when prompted
 ```
  sudo podman run -it --rm \
      --privileged --device /dev/fuse \
@@ -24,6 +23,7 @@ nav_order: 1
      --repo collector-operators \
      --repo collector-apps
 ```
+  - Paste [Quay.io Image Pull Secret] when prompted
     
   3. Review your artifacts
 ```
