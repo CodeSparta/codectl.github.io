@@ -6,7 +6,7 @@ has_children: false
 permalink: /docs/architecture
 ---
 
-# High Level Architecture Workflow
+# Architecture Overiew
 
 ![Diagram](./web/sparta.png)
 
