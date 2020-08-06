@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Architecture
+title: Contributor Docs
 nav_order: 6
 has_children: false
 permalink: /docs/Contributor
