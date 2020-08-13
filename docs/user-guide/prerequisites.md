@@ -7,8 +7,7 @@ nav_order: 1
 
 # Prereqs
 ## Red Hat OpenShift 4.5+ | Low Side | Artifact Collection
-## Restricted Environment Platform Infrastructure as Code
-
+    
 This codebase is created and maintained by RedHat Consulting, a Platform One partner.
 This wiki provides brief instructions on how to run the RedHat Koffer & Konductor automation suites to prepare & provision airgap restricted environments.
 
