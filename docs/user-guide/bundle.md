@@ -36,9 +36,6 @@ sudo podman run -it --rm \
     
 #### Continue [Artifacts AirGap Pivot](https://codectl.io/docs/user-guide/airgap)
 
-------------------------------------------------------------------------------
-# Demo
-![bundle](./web/bundle.svg)
 
 [Operators]:https://github.com/CodeSparta/collector-operators
 [Applications]:https://github.com/CodeSparta/collector-apps
