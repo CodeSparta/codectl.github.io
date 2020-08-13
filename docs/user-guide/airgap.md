@@ -2,27 +2,57 @@
 layout: default
 title: AirGap
 parent: User Guide
-nav_order: 2
+nav_order: 3
 ---
 
 # AirGap
 ## Red Hat OpenShift 4.5+ | Artifacts AirGap Pivot
-  0. Move all bundles to high side bastion `${HOME}/bundle/` directory
-  1. Create CloudCtl base directory
+  0. Move all bundles to high side bastion `/tmp/bundle` directory
+>
+> Valid strategies include `{scp,rsync,s3,physical media}`
+>
+
+  - Example rsync push:
 ```
- sudo mkdir -p /root/deploy/mirror ;
+  export SSHJumpIp="876.54.3.2112"
+  export SSHTargetIp="10.0.1.99"
+  export SSHAwsKey="${HOME}/.ssh/id_rsa/sparta"
 ```
-  2. Extract Infrastructure Bundle
+  - With jump host
 ```
- sudo tar xv -f ${HOME}/bundle/koffer-bundle.openshift-*.tar -C /root
+  sudo chown -R $USER /tmp/bundle
+  rsync -avzhr /tmp/bundle \
+      -e "ssh -i ${aws_ssh_key} -A -J ec2-user@${SSHJumpIp}" \
+    core@${SSHTargetIp}:~
 ```
-  3. Extract Operators Bundle
+  - Without jump host
 ```
- sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-operators.tar -C /root/deploy
+  sudo chown -R core /tmp/bundle
+  rsync --progress -avzh /tmp/bundle \
+        -e "ssh -i ~/.ssh/id_rsa_${name}" \
+    core@${eipREGISTRY}:~
 ```
-  4. Extract Application Images Bundle
+  1. SSH to Private Registry Node
 ```
- sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar -C /root/deploy/mirror
+  ssh -i ~/.ssh/id_rsa_sparta \
+      -e "ssh -i ${aws_ssh_key} -A -J ec2-user@${SSHJumpIp}" \
+    ec2-user@${SSHJumpIp}
+```
+  2. Create CloudCtl base directory
+```
+  sudo mkdir -p /root/deploy/mirror ;
+```
+  3. Extract Infrastructure Bundle
+```
+  sudo tar xv -f ${HOME}/bundle/koffer-bundle.openshift-*.tar -C /root
+```
+  4. Extract Operators Bundle
+```
+  sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-operators.tar -C /root/deploy
+```
+  5. Extract Application Images Bundle
+```
+  sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar -C /root/deploy/mirror
 ```
 #### Continue Deployment High Side: [Konductor Deploy Cluster]    
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned

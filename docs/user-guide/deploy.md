@@ -2,7 +2,7 @@
 layout: default
 title: Deploy
 parent: User Guide
-nav_order: 3
+nav_order: 4
 ---
 
 # Deploy
@@ -13,12 +13,14 @@ nav_order: 3
 ```
  sudo -i
 ```
-  2. CloudCtl Standup & Run Konductor
+  2. Prepare Variables
 ```
- ./start-cloudctl.sh
+ vi answer.sh
 ```
-    
-  3. Follow Prompts
+  3. CloudCtl Standup & Run Konductor
+```
+ ./konductor.sh
+```
     
 [CloudCtl]:https://github.com/CodeSparta/CloudCtl
 [Konductor]:https://github.com/CodeSparta/Konductor
