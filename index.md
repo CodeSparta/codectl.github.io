@@ -45,7 +45,7 @@ features.
 [AWS GovCloud Credentials Portal]:https://console.amazonaws-us-gov.com/iam/home#/security_credentials
 [Red Hat UPI OpenShift Web Console]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
 [Podman Installed]:https://podman.io/getting-started/installation.html
-[air gap]:https://tinyurl.com/yyrygo74
+[airgap]:https://tinyurl.com/yyrygo74
 
 ---
 ### Contributors:
