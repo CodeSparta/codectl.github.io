@@ -26,8 +26,8 @@ UPI process in an ecosystem of UPI delivery tooling.
 Sparta leverages containerized runtimes for executing [Infrastructure as Code] (IAC)
 automation plugins & opinionated enforcement of artifact collection and delivery.
 
-The Plugin Ecosystem written primarily in Ansible & Terraform but also featuring
-BASH, Python, and Golang enables community accessibility & advanced capability
+The Plugin Ecosystem written primarily in [Ansible] & [Terraform] but also featuring
+[BASH], [Python], and [Golang] enables community accessibility & advanced capability
 development.
 
 ## Stages:
@@ -54,6 +54,7 @@ Stages:
 [Python]:https://www.python.org
 [Golang]:https://golang.org
 [Ansible]:https://www.ansible.com
+[Terraform]:https://www.terraform.io
 
 ### Architecture Diagram
 ![Diagram](./web/sparta.png)
