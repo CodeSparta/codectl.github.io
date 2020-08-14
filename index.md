@@ -13,46 +13,34 @@ last_modified_date: 2020-04-27T17:54:08+0000
 Platform Delivery as Code Ecosystem
 {: .fs-6 .fw-300 }
 
-[Find on GitHub](https://github.com/CodeSparta){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Find on GitHub](https://github.com/CodeSparta){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
+or 
+[Get Started](https://codectl.io/docs/user-guide){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }    
 
 ---
-## About
+#### Red Hat OpenShift Airgap Platform Delivery as Code
+Sparta was created to solve the problem of delivering the [OpenShift](https://www.openshift.com)
+ Kubernetes Platform along with a complete middleware and application capability within restricted
+ deployment environments such as behind an airgap.
 
-## Red Hat OpenShift 4 Airgap Automation Deploment as Code
-
-This codebase is created and maintained by Red Hat Consulting.
-These doc pages provides brief instructions on how to run the RedHat Koffer & Konductor automation suites to prepare & provision airgap restricted environments.
+The delivery design centers around the Koffer & Konductor automation runtime
+containers as pluggable artifact collection & IaC delivery engines which
+orchestrate the CloudCtl deployment services pod which augments cloud native
+features.
 
 ---
-## Requirements
+#### Supported Environmets
+  - Amazon AWS Commercial
+  - Amazon AWS GovCloud
 
-### Low Side Workstation Host
-
-The deployment process requires an initial unsecured public networked workstation host where all artifacts are collected. This host must meet the following requirements:
-
-  - [Podman Installed]
-  - Access to Internet
-  - Minimum of 64 GB available storage
-  - Recommended:
-    - [RHEL8] or [RH CoreOS]: bare metal, cloud instance, or virtual machine
-    - Valid host type examples: localhost, local vm, or cloud instance
-    - Host Hardware Equivalent: t2.2xlarge {8 vCPU, 32GB RAM}
-
-### Red Hat Credentials
-A Quay pull secret is required for the registry, and can be found at the [Red Hat UPI OpenShift Web Console].
-
-### AWS Credentials
-One set of Admin level AWS account credentials are required for this deployment.    
-  (Commercial or GovCloud)
-    
-  - AWS Commercial account ([AWS Commercial Credentials Portal])
-    - Access Key ID
-    - Secret Access Key
-  - AWS GovCloud account ([AWS GovCloud Credentials Portal])
-    - Access Key ID
-    - Secret Access Key
+#### Support Roadmap
+  - Azure Commercial
+  - Azure Gov
+  - Bare Metal
+  - VMWare
 
 [Podman Installed]:https://podman.io/getting-started/installation.html
+[air gap]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Examples
 [Environment Considerations]:staging/considerations/
 [HERE]:AWS_WORKAROUND.md
 [Red Hat UPI OpenShift Web Console]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
@@ -62,7 +50,8 @@ One set of Admin level AWS account credentials are required for this deployment.
 [RH CoreOS]:https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/latest/latest/
 
 ---
-#### Thank you to our contributors!
+### Contributors:
+###### This is an unofficial project maintained by a community of [Red Hat Consultants](https://www.redhat.com/en/services/consulting)
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
   <li class="d-inline-block mr-1">
