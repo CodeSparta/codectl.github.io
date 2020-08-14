@@ -30,7 +30,6 @@ This guide provides brief instructions on the basic Sparta platform delivery met
     - [Podman Installed]    
     - Access to Internet    
     - Minimum of 64 GB available storage    
-    
   - The following is recommended for the host:    
     - RHEL 8: bare metal, cloud instance, or virtual machine    
     - Valid host type examples: localhost, local vm, or cloud instance    
