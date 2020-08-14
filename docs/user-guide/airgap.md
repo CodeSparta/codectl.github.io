@@ -27,7 +27,7 @@ nav_order: 3
 ```
   3. SSH to the RHEL8 Bastion
 ```
-  ssh ec2-user@${rhel_bastion_public_ip}
+  ssh -i ~/.ssh/${keyname} ec2-user@${rhel_bastion_public_ip}
 ```
   4. Push artifact bundles to Private Registry Node
 ```
@@ -35,7 +35,7 @@ nav_order: 3
 ```
   5. SSH to the Private Registry Node
 ```
-  ssh core@${rhcos_private_registry_internal_ip}
+  ssh -i ~/.ssh/${keyname} core@${rhcos_private_registry_internal_ip}
 ```
   6. Extract Bundles
 ```
