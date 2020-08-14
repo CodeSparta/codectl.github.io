@@ -16,7 +16,7 @@ This guide provides brief instructions on the basic Sparta platform delivery met
 ### Amazon AWS Requirements
 
   1. User Provisioned AWS VPC Infrastructure
->  Option: [Sparta DevKit VPC]
+>  Option a. [Sparta DevKit VPC]
 >
 
   2. Admin Privileged AWS account keys
