@@ -36,8 +36,8 @@ pre-existing infrastructure and consisting of four distinct stages.
 
 Stages:
   - [Low-Side] or the public internet access stage.
-    1. "Artifact Collection" is the process of collecting and archiving all dependencies for transport
-    2. "The Walk" or the disconnected transportation of artifacts through secure boundaries
+    1. "Artifact Collection" the process of collecting/archiving dependencies for transport
+    2. "The Walk" the disconnected transport of dependencies through secure boundaries
   - [High-Side] or the network(s) beyond restriction boundaries and or the airgap.
     3. "Manifest Initialization" where declarative configurations are generated and stowed for IaC consumption
     4. "Deployment" or the execution and run of IaC automation as configured by the declarative manifest configuration
