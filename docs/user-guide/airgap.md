@@ -44,6 +44,7 @@ nav_order: 3
 ```
   6. Extract Bundles
 ```
+  sudo mkdir -p /root/deploy/mirror
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.openshift-*.tar         -C /root
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-operators.tar -C /root/deploy
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar      -C /root/deploy/mirror
