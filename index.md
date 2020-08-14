@@ -10,16 +10,16 @@ last_modified_date: 2020-04-27T17:54:08+0000
 # CodeSparta Official
 {: .fs-9 }
 
-Restricted Platform Delivery as Code
+Airgap Platform Delivery as Code
 {: .fs-6 .fw-300 }
 
 [Find on GitHub](https://github.com/CodeSparta){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 [Build OpenShift](https://codectl.io/docs/user-guide){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }    
 
 ---
-## Red Hat OpenShift Airgap Platform Delivery as Code
+## Red Hat OpenShift Platform Delivery as Code
 Sparta was created to solve the problem of delivering the Red Hat [OpenShift](https://www.openshift.com)
- Kubernetes Platform, along with a complete middleware and application capability, within restricted
+ Kubernetes Platform, along with an extensable middleware and application portfolio, within restricted
  deployment environments (e.g. behind an airgap).
 
 The delivery design centers around the Koffer and Konductor automation runtime
