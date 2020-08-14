@@ -30,7 +30,7 @@ The Plugin Ecosystem written primarily in [Ansible] & [Terraform] but also featu
 [BASH], [Python], and [Golang] enables community accessibility & advanced capability
 development.
 
-## Stages:
+## Method
 Airgap & Restricted network delivery represent similar but critically unique
 challenges. For now Sparta delivers via an airgap only model, primarily aimed at
 pre-existing infrastructure and consisting of four distinct stages.
