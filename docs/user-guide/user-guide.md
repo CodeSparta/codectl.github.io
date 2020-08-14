@@ -22,7 +22,7 @@ This host must meet the following requirements:
   - Minimum of 64 GB available storage
   
 The following is recommended for the host:
-  - Bastion: RHEL 8 bare metal, cloud instance, or virtual machine
+  - RHEL 8: bare metal, cloud instance, or virtual machine
   - Valid host type examples: localhost, local vm, or cloud instance
   - Host Hardware Equivalent: t2.2xlarge (8 vCPU, 32GB RAM, 64GB Disk)
 
