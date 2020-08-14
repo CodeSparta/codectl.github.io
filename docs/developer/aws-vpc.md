@@ -20,10 +20,6 @@ nav_order: 1
 ```
   vi variables.tf
 ```
-  3. Exec into Konductor IaC Runtime
-```
-  bash tools/dev.sh
-```
   4. Exec into Konductor IaC Runtime
 ```
   ./devkit-build-vpc.sh -vv -e aws_access_key=xxxxxxxxxxxxx -e aws_secret_key=XXXXXXXXXXXXXXXXX -e aws_cloud_region=us-gov-west-1
