@@ -37,6 +37,7 @@ orchestrate the CloudCtl deployment services pod to augment cloud native feature
   - Microsoft Azure Commercial
   - Microsoft Azure Gov
   - Bare Metal
+  - Libvirt
   - VMware
     
 
