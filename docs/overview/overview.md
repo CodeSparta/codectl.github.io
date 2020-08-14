@@ -3,7 +3,7 @@ layout: default
 title: Overview
 nav_order: 2
 has_children: false
-permalink: /docs/architecture
+permalink: /docs/overview
 ---
 
 # Architecture Overiew
