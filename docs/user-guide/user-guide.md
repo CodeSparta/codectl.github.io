@@ -14,8 +14,9 @@ This guide provides brief instructions on the basic Sparta platform delivery met
 ## Requirements
 
 ### Amazon AWS Requirements
+  0. Red Hat OpenShift [AWS Minimum Requirements]
   1. User Provisioned AWS VPC Infrastructure
-  - Option a. [Sparta DevKit VPC]
+  - Optional: Developer VPC ([Sparta DevKit VPC])
     
   2. Admin Privileged AWS account keys
   - AWS Commercial account ([AWS Commercial Credentials Portal])
@@ -50,7 +51,8 @@ This guide provides brief instructions on the basic Sparta platform delivery met
 [Podman Installed]:https://podman.io/getting-started/installation.html
 [Red Hat UPI OpenShift Web Console]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
 [AWS GovCloud Credentials Portal]:https://console.amazonaws-us-gov.com/iam/home#/security_credentials
+[Sparta DevKit VPC]:https://codectl.io/docs/developer/aws-vpc
 [AWS Commercial Credentials Portal]:https://console.aws.amazon.com/iam/home#/security_credentials
 [RHEL 8]:https://access.redhat.com/downloads/content/479/ver=/rhel---8/8.2/x86_64/product-software
-[Sparta DevKit VPC]:https://codectl.io/docs/developer/aws-vpc/
+[AWS Minimum Requirements]:https://docs.openshift.com/container-platform/4.5/installing/installing_aws/installing-aws-vpc.html#installation-custom-aws-vpc-requirements_installing-aws-vpc
 {: .fs-6 .fw-300 }
