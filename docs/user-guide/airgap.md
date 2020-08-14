@@ -12,45 +12,35 @@ nav_order: 3
 > Valid strategies include `{scp,rsync,s3,physical media}`
 >    
 
-  0. Push bundle(s) to RHEL8 Bastion
-```
-```
-  1. Push bundle(s) to RHEL8 Bastion
-```
-  sudo chown -R core /tmp/bundle
-  rsync --progress -avzh /tmp/bundle \
-        -e "ssh -i ~/.ssh/id_rsa_${name}" \
-    core@${eipREGISTRY}:~
-```
-  - With jump host
+  0. Set Permissions on bundle(s)
 ```
   sudo chown -R $USER /tmp/bundle
-  export SSHJumpIp="876.54.3.2112"
-  rsync -avzhr /tmp/bundle \
-      -e "ssh -i ${aws_ssh_key} -A -J ec2-user@${SSHJumpIp}" \
-    core@${SSHTargetIp}:~
 ```
-  1. SSH to Private Registry Node
+  1. Push bastion ssh keys to rhel bastion
 ```
-  ssh -i ~/.ssh/id_rsa_sparta \
-      -e "ssh -i ${aws_ssh_key} -A -J ec2-user@${SSHJumpIp}" \
-    ec2-user@${SSHJumpIp}
+  scp -i ~/.ssh/${keyname} ~/.ssh/${keyname}* ec2-user@${rhel_bastion_public_ip}:~/.ssh/
 ```
-  2. Create CloudCtl base directory
+  2. Push artifact bundles to RHEL8 Bastion
 ```
-  sudo mkdir -p /root/deploy/mirror ;
+  rsync --progress -avzh /tmp/bundle -e "ssh -i ~/.ssh/${keyname}" ec2-user@${rhel_bastion_public_ip}:~
 ```
-  3. Extract Infrastructure Bundle
+  3. SSH to the Private Registry Node
 ```
-  sudo tar xv -f ${HOME}/bundle/koffer-bundle.openshift-*.tar -C /root
+  ssh ec2-user@${rhel_bastion_public_ip}
 ```
-  4. Extract Operators Bundle
+  4. Push artifact bundles to Private Registry Node
 ```
+  rsync --progress -avzh /tmp/bundle -e "ssh -i ~/.ssh/${keyname}" core@${rhel_bastion_public_ip}:~
+```
+  5. SSH to the Private Registry Node
+```
+  ssh core@${rhcos_private_registry_internal_ip}
+```
+  6. Extract Bundles
+```
+  sudo tar xv -f ${HOME}/bundle/koffer-bundle.openshift-*.tar         -C /root
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-operators.tar -C /root/deploy
-```
-  5. Extract Application Images Bundle
-```
-  sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar -C /root/deploy/mirror
+  sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar      -C /root/deploy/mirror
 ```
 #### Continue Deployment High Side: [Konductor Deploy Cluster]    
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
