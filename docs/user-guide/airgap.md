@@ -8,29 +8,30 @@ nav_order: 3
 # AirGap
 ## Red Hat OpenShift 4.5+ | Artifacts AirGap Pivot
   0. Move all bundles to high side bastion `/tmp/bundle` directory
+    
 >
 > Valid strategies include `{scp,rsync,s3,physical media}`
->
+>    
 
-  - Example rsync push:
+  - Example rsync push
 ```
-  export SSHJumpIp="876.54.3.2112"
   export SSHTargetIp="10.0.1.99"
   export SSHAwsKey="${HOME}/.ssh/id_rsa/sparta"
 ```
-  - With jump host
-```
-  sudo chown -R $USER /tmp/bundle
-  rsync -avzhr /tmp/bundle \
-      -e "ssh -i ${aws_ssh_key} -A -J ec2-user@${SSHJumpIp}" \
-    core@${SSHTargetIp}:~
-```
-  - Without jump host
+  - Direct (no jump host)
 ```
   sudo chown -R core /tmp/bundle
   rsync --progress -avzh /tmp/bundle \
         -e "ssh -i ~/.ssh/id_rsa_${name}" \
     core@${eipREGISTRY}:~
+```
+  - With jump host
+```
+  sudo chown -R $USER /tmp/bundle
+  export SSHJumpIp="876.54.3.2112"
+  rsync -avzhr /tmp/bundle \
+      -e "ssh -i ${aws_ssh_key} -A -J ec2-user@${SSHJumpIp}" \
+    core@${SSHTargetIp}:~
 ```
   1. SSH to Private Registry Node
 ```

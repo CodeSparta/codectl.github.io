@@ -8,7 +8,7 @@ nav_order: 1
 # Prereqs
 ## Red Hat OpenShift 4.5+ | Low Side | Artifact Collection
     
-This codebase is created and maintained by RedHat Consulting, a Platform One partner.
+This platform delivery tooling ecosystem is created and maintained by RedHat Consulting.
 This wiki provides brief instructions on how to run the RedHat Koffer & Konductor automation suites to prepare & provision airgap restricted environments.
 
 ## Requirements

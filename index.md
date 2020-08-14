@@ -62,14 +62,6 @@ One set of Admin level AWS account credentials are required for this deployment.
 [RH CoreOS]:https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/latest/latest/
 
 ---
-## About the project
-### License
-CodeSparta is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
-
-### Contributing
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/redshiftofficial/redshiftofficial.github.io#contributing).
-
 #### Thank you to our contributors!
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
@@ -78,6 +70,10 @@ email, or any other method with the owners of this repository before making a ch
   </li>
 {% endfor %}
 </ul>
+
+## About the project
+### License
+CodeSparta is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
 
 ### Code of Conduct
 Just the Docs is committed to fostering a welcoming community.
