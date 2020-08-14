@@ -25,9 +25,9 @@ nav_order: 3
 ```
   rsync --progress -avzh /tmp/bundle -e "ssh -i ~/.ssh/${keyname}" ec2-user@${rhel_bastion_public_ip}:~
 ```
-  3. SSH to the Private Registry Node
+  3. SSH to the RHEL8 Bastion
 ```
-  ssh ec2-user@${rhcos_private_registry_node_ip}
+  ssh ec2-user@${rhel_bastion_public_ip}
 ```
   4. Push artifact bundles to Private Registry Node
 ```
