@@ -11,6 +11,7 @@ nav_order: 2
   - [Operators]    
   - [Applications]    
     
+### Run on the Low Side connected instance
   1. Create Platform Artifacts Staging Directory
 ```
  mkdir -p /tmp/bundle ;
