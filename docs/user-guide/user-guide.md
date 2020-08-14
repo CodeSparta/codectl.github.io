@@ -14,6 +14,7 @@ This guide provides brief instructions on the basic Sparta platform delivery met
 ## Requirements
 
 ### Amazon AWS Requirements
+    
   1. Red Hat OpenShift Minimum Requirements    
   - [AWS Minimum Requirements]    
   2. User Provisioned AWS VPC Infrastructure    
