@@ -58,7 +58,6 @@ features.
 {% endfor %}
 </ul>
 
-## About the project
 ### License
 CodeSparta is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
 
