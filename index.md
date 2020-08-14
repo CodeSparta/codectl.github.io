@@ -37,8 +37,8 @@ orchestrate the CloudCtl deployment services pod to augment cloud native feature
   - Microsoft Azure Commercial
   - Microsoft Azure Gov
   - Bare Metal
-  - Libvirt
   - VMware
+  - Libvirt
     
 
 [RHEL8]:https://access.redhat.com/downloads/content/479/ver=/rhel---8/8.2/x86_64/product-software
