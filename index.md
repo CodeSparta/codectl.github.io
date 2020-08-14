@@ -10,7 +10,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 # CodeSparta Official
 {: .fs-9 }
 
-Platform Delivery as Code Ecosystem
+Restricted Platform Delivery as Code
 {: .fs-6 .fw-300 }
 
 [Find on GitHub](https://github.com/CodeSparta){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
