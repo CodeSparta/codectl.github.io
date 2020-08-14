@@ -14,32 +14,32 @@ This guide provides brief instructions on the basic Sparta platform delivery met
 ## Requirements
 
 ### Amazon AWS Requirements
-  1. Red Hat OpenShift Minimum Requirements
-    - AWS ([Minimum Requirements])
-  2. User Provisioned AWS VPC Infrastructure
-    - Optional: Developer VPC ([Sparta DevKit VPC])
+  1. Red Hat OpenShift Minimum Requirements    
+    - AWS ([Minimum Requirements])    
+  2. User Provisioned AWS VPC Infrastructure    
+    - Optional: Developer VPC ([Sparta DevKit VPC])    
     
   3. Admin Privileged AWS account keys    
     - AWS Commercial account Key Secret & ID Pair ([AWS Commercial Credentials Portal])    
     - AWS GovCloud account Key Secret & ID Pair ([AWS GovCloud Credentials Portal])    
 
-### User Provided Low-Side Unrestricted Prep Node
-  4. Unsecured, public network artifact collection host
-  - This host must meet the following requirements:
-    - [Podman Installed]
-    - Access to Internet
-    - Minimum of 64 GB available storage
+### User Provided Low-Side Unrestricted Prep Node    
+  4. Unsecured, public network artifact collection host    
+  - This host must meet the following requirements:    
+    - [Podman Installed]    
+    - Access to Internet    
+    - Minimum of 64 GB available storage    
     
-  - The following is recommended for the host:
-    - RHEL 8: bare metal, cloud instance, or virtual machine
-    - Valid host type examples: localhost, local vm, or cloud instance
-    - Host Hardware Equivalent: t2.2xlarge (8 vCPU, 32GB RAM, 64GB Disk)
+  - The following is recommended for the host:    
+    - RHEL 8: bare metal, cloud instance, or virtual machine    
+    - Valid host type examples: localhost, local vm, or cloud instance    
+    - Host Hardware Equivalent: t2.2xlarge (8 vCPU, 32GB RAM, 64GB Disk)    
 
-### Red Hat Credentials
-  4. A Quay pull secret is required for the registry, and can be found at the [Red Hat UPI OpenShift Web Console].
+### Red Hat Credentials    
+  4. A Quay pull secret is required for the registry, and can be found at the [Red Hat UPI OpenShift Web Console].    
 
 ----------------------------------------------------------------
-## Get Started:
+## Get Started:    
 ####  1. [Low Side Koffer Artifact Bundle](https://codectl.io/docs/user-guide/bundle)
 ####  2. [AirGap Artifact Walk](https://codectl.io/docs/user-guide/airgap)
 ####  3. [High Side CloudCtl Konductor Deploy](https://codectl.io/docs/user-guide/deploy)
