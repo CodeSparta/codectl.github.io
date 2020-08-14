@@ -5,50 +5,50 @@ parent: User Guide
 nav_order: 3
 ---
 
-# AirGap Artifact Walk
+# Airgap Artifact Walk
 > Valid transport strategies include:
->  - s3
->  - scp
->  - rsync
->  - physical media
+>  - S3
+>  - SCP
+>  - Rsync
+>  - Physical media (e.g. DVD)
 >
 > Glossary:
->  - `keyname` is the aws ssh key used to provision bastion & registry nodes
->  - `rhel_bastion_public_ip` the public IP of your rhel bastion
->  - `rhcos_private_registry_node_ip` is the rhcos registry node private ip
+>  - `keyname` is the AWS SSH key used to provision bastion and registry nodes
+>  - `rhel_bastion_public_ip` is the public IP of your RHEL bastion
+>  - `rhcos_private_registry_node_ip` is the Red Hat CoreOS (RHCOS) registry node private IP
 >    
 
   0. Set Permissions on bundle(s)
 ```
   sudo chown -R $USER /tmp/bundle
 ```
-  1. Push bastion ssh keys to rhel bastion
+  1. Push bastion SSH keys to RHEL bastion
 ```
   scp -i ~/.ssh/${keyname} ~/.ssh/${keyname}* ec2-user@${rhel_bastion_public_ip}:~/.ssh/
 ```
-  2. Push artifact bundles to RHEL8 Bastion
+  2. Push artifact bundles to RHEL bastion
 ```
   rsync --progress -avzh /tmp/bundle -e "ssh -i ~/.ssh/${keyname}" ec2-user@${rhel_bastion_public_ip}:~
 ```
-  3. SSH to the RHEL8 Bastion
+  3. SSH to the RHEL bastion
 ```
   ssh -i ~/.ssh/${keyname} ec2-user@${rhel_bastion_public_ip}
 ```
-  4. Push artifact bundles to RHCOS Private Registry Node
+  4. Push artifact bundles to RHCOS private registry node
 ```
   rsync --progress -avzh bundle -e "ssh -i ~/.ssh/${keyname}" core@${rhcos_private_registry_node_ip}:~
 ```
-  5. SSH to the RHCOS Private Registry Node
+  5. SSH to the RHCOS private registry node
 ```
   ssh -i ~/.ssh/${keyname} core@${rhcos_private_registry_node_ip}
 ```
-  6. Extract Bundles
+  6. Extract bundles
 ```
   sudo mkdir -p /root/deploy/mirror
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.openshift-*.tar         -C /root
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-operators.tar -C /root/deploy
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar      -C /root/deploy/mirror
 ```
-## Continue Deployment High Side: [Konductor Deploy Cluster]    
+## Continue [High-Side Deploy]    
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
-[Konductor Deploy Cluster]:https://codectl.io/docs/user-guide/deploy
+[High-Side Deploy]:https://codectl.io/docs/user-guide/deploy
