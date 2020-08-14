@@ -15,8 +15,8 @@ presumptive of access to public internet services & dependency resources.
 We may choose "[Installer Provisioned Infrastructure]" (IPI) or "[User Provisioned
 Infrastructure]" (UPI) where the former is an opinionated all in one delivery mechanism 
 that provisions and configures infrastructure and the platform stack vs the latter 
-which provides more flexibility by deploying OpenShift to User provisioned & configured
-infrastructure at the cost of more deployment and lifecycle user responsibility.
+which provides more flexibility by deploying OpenShift to a prerequisite of user 
+provided infrastructure at the cost of more deployment and lifecycle user responsibility.
 
 Sparta delivers an alternate opinionated 'IPI' like OpenShift delivery
 experience with restricted target environment support exposed by wrapping the
