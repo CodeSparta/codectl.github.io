@@ -43,6 +43,6 @@ nav_order: 3
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-operators.tar -C /root/deploy
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar      -C /root/deploy/mirror
 ```
-#### Continue Deployment High Side: [Konductor Deploy Cluster]    
+## Continue Deployment High Side: [Konductor Deploy Cluster]    
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
 [Konductor Deploy Cluster]:https://codectl.io/docs/user-guide/deploy
