@@ -32,7 +32,7 @@ sudo podman run -it --rm \
  du -sh /tmp/bundle/*
 ```
     
-#### Continue [Artifacts AirGap Pivot](https://codectl.io/docs/user-guide/airgap)    
+## Continue [Artifacts AirGap Pivot](https://codectl.io/docs/user-guide/airgap)    
 [Operators]:https://github.com/CodeSparta/collector-operators
 [Applications]:https://github.com/CodeSparta/collector-apps
 [Infrastructure]:https://github.com/CodeSparta/collector-infra
