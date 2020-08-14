@@ -5,18 +5,18 @@ parent: User Guide
 nav_order: 2
 ---
 
-# Low Side Artifact Bundle
+# Low-Side Artifact Bundle
 ### Koffer Collector Plugins
   - [Infrastructure]    
   - [Operators]    
   - [Applications]    
     
-### Run on the Low Side connected instance
+### Run on the low-side connected instance
   1. Create Platform Artifacts Staging Directory
 ```
  mkdir -p /tmp/bundle ;
 ```
-  2. Build Openshift Infrastructure, Operators, & App Bundles
+  2. Build OpenShift Infrastructure, Operators, and App Bundles
 ```
 sudo podman run -it --rm \
     --privileged --device /dev/fuse \
@@ -33,7 +33,7 @@ sudo podman run -it --rm \
  du -sh /tmp/bundle/*
 ```
     
-## Continue [Artifacts AirGap Pivot](https://codectl.io/docs/user-guide/airgap)    
+## Continue [Airgap Artifact Walk](https://codectl.io/docs/user-guide/airgap)    
 [Operators]:https://github.com/CodeSparta/collector-operators
 [Applications]:https://github.com/CodeSparta/collector-apps
 [Infrastructure]:https://github.com/CodeSparta/collector-infra
