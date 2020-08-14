@@ -35,7 +35,7 @@ nav_order: 3
 ```
   5. SSH to the Private Registry Node
 ```
-  ssh -i ~/.ssh/${keyname} core@${rhcos_private_registry_internal_ip}
+  ssh -i ~/.ssh/${keyname} core@${rhcos_private_registry_node_ip}
 ```
   6. Extract Bundles
 ```
