@@ -6,14 +6,16 @@ nav_order: 3
 ---
 
 # AirGap
-## Red Hat OpenShift 4.5+ | Artifacts AirGap Pivot
-  0. Move all bundles to high side bastion `/tmp/bundle` directory
+## Artifact Walk
     
 >
 > Valid strategies include `{scp,rsync,s3,physical media}`
 >    
 
-  1. Push bundle(s) to first 
+  0. Push bundle(s) to RHEL8 Bastion
+```
+```
+  1. Push bundle(s) to RHEL8 Bastion
 ```
   sudo chown -R core /tmp/bundle
   rsync --progress -avzh /tmp/bundle \

@@ -37,10 +37,10 @@ pre-existing infrastructure and consisting of four distinct stages.
 Stages:
   - [Low-Side] or the public internet access stage.
     1. "Artifact Collection" the process of collecting/archiving dependencies for transport
-    2. "The Walk" the disconnected transport of dependencies through secure boundaries
+    2. "Artifact Walk" the disconnected transport of dependencies through secure boundaries
   - [High-Side] or the network(s) beyond restriction boundaries and or the airgap.
     3. "Manifest Initialization" where declarative configurations are generated and stowed for IaC consumption
-    4. "Deployment" or the execution and run of IaC automation as configured by the declarative manifest configuration
+    4. "Deployment" or execution of IaC automation as configured by the declarative manifest configuration
 
 [Public Cloud]:https://www.redhat.com/en/topics/cloud-computing/what-is-public-cloud
 [Installer Provisioned Infrastructure]:https://github.com/openshift/installer#supported-platforms
