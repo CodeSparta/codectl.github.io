@@ -7,6 +7,10 @@ nav_order: 3
 
 # AirGap Artifact Walk
 > Valid strategies include `{scp,rsync,s3,physical media}`
+> Key:
+>  - `${keyname}` is the aws ssh key used to provision bastion & registry nodes
+>  - `${rhel_bastion_public_ip}` the public IP of your rhel bastion
+>  - `${rhcos_private_registry_node_ip}` is the private IP of your rhcos registry node
 >    
 
   0. Set Permissions on bundle(s)
@@ -23,11 +27,11 @@ nav_order: 3
 ```
   3. SSH to the Private Registry Node
 ```
-  ssh ec2-user@${rhel_bastion_public_ip}
+  ssh ec2-user@${rhcos_private_registry_node_ip}
 ```
   4. Push artifact bundles to Private Registry Node
 ```
-  rsync --progress -avzh /tmp/bundle -e "ssh -i ~/.ssh/${keyname}" core@${rhel_bastion_public_ip}:~
+  rsync --progress -avzh /tmp/bundle -e "ssh -i ~/.ssh/${keyname}" core@${rhcos_private_registry_node_ip}:~
 ```
   5. SSH to the Private Registry Node
 ```
