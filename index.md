@@ -17,7 +17,7 @@ Platform Delivery as Code Ecosystem
 [Build OpenShift](https://codectl.io/docs/user-guide){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }    
 
 ---
-#### Red Hat OpenShift Airgap Platform Delivery as Code
+## Red Hat OpenShift Airgap Platform Delivery as Code
 Sparta was created to solve the problem of delivering the Red Hat [OpenShift](https://www.openshift.com)
  Kubernetes Platform, along with a complete middleware and application capability, within restricted
  deployment environments (e.g. behind an airgap).
