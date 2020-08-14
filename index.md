@@ -30,8 +30,8 @@ orchestrate the CloudCtl deployment services pod to augment cloud native feature
 #### Supported Environments
   - Amazon AWS Commercial
   - Amazon AWS GovCloud
-  - Amazon AWS c2s
-  - Amazon AWS sc2s
+  - Amazon AWS C2S
+  - Amazon AWS SC2S
 
 #### Support Roadmap
   - Microsoft Azure Commercial
