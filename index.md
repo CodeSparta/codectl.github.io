@@ -18,25 +18,24 @@ Platform Delivery as Code Ecosystem
 
 ---
 #### Red Hat OpenShift Airgap Platform Delivery as Code
-Sparta was created to solve the problem of delivering the [OpenShift](https://www.openshift.com)
- Kubernetes Platform along with a complete middleware and application capability within restricted
- deployment environments such as behind an airgap.
+Sparta was created to solve the problem of delivering the Red Hat [OpenShift](https://www.openshift.com)
+ Kubernetes Platform, along with a complete middleware and application capability, within restricted
+ deployment environments (e.g. behind an airgap).
 
-The delivery design centers around the Koffer & Konductor automation runtime
-containers as pluggable artifact collection & IaC delivery engines which
-orchestrate the CloudCtl deployment services pod which augments cloud native
-features.
+The delivery design centers around the Koffer and Konductor automation runtime
+containers as pluggable artifact collection and Infrastructure as Code (IaC) delivery engines, which
+orchestrate the CloudCtl deployment services pod to augment cloud native features.
 
 ---
-#### Supported Environmets
+#### Supported Environments
   - Amazon AWS Commercial
   - Amazon AWS GovCloud
 
 #### Support Roadmap
-  - Azure Commercial
-  - Azure Gov
+  - Microsoft Azure Commercial
+  - Microsoft Azure Gov
   - Bare Metal
-  - VMWare
+  - VMware
     
 
 [RHEL8]:https://access.redhat.com/downloads/content/479/ver=/rhel---8/8.2/x86_64/product-software
