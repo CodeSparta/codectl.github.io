@@ -37,11 +37,11 @@ pre-existing infrastructure and consisting of four distinct stages.
 
 Stages:
   - [Low Side] or the public internet access stage.
-    1. Koffer Artifact Collection, the process of collecting and archiving all dependencies for transport
+    1. Artifact Collection, the process of collecting and archiving all dependencies for transport
     2. "The Walk" or the disconnected transportation of artifacts through secure boundaries
   - [High Side] or the network(s) beyond restriction boundaries and or the airgap.
-    3. [Manifest Initialization] where declarative configurations are generated and stowed for IaC consumption
-    4. [Deployment] or the execution & run of IaC automation as configured by the declarative manifest configuration
+    3. "Manifest Initialization" where declarative configurations are generated and stowed for IaC consumption
+    4. "Deployment" or the execution & run of IaC automation as configured by the declarative manifest configuration
 
 [Public Cloud]:https://www.redhat.com/en/topics/cloud-computing/what-is-public-cloud
 [Installer Provisioned Infrastructure]:https://github.com/openshift/installer#supported-platforms
