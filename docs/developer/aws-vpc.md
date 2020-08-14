@@ -5,9 +5,9 @@ parent: Platform Dev
 nav_order: 1
 ---
 
-# Sparta AWS Devkit VPC
+# Sparta [AWS Devkit VPC]
 ## Requirements
-  - Provisioned AWS SSH Key
+  - Provisioned [AWS SSH Key]
   - Valid AMI (and ami ids) for RHEL8 & CoreOS
                                                                              
 -----------------------------------------------------------------------------
@@ -31,3 +31,6 @@ nav_order: 1
 ```
   ./devkit-destroy-vpc.sh
 ```
+
+[AWS Devkit VPC]:https://github.com/CodeSparta/devkit-vpc
+[AWS SSH Key]:https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#how-to-generate-your-own-key-and-import-it-to-aws
