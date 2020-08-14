@@ -13,12 +13,7 @@ nav_order: 3
 > Valid strategies include `{scp,rsync,s3,physical media}`
 >    
 
-  - Example rsync push
-```
-  export SSHTargetIp="10.0.1.99"
-  export SSHAwsKey="${HOME}/.ssh/id_rsa/sparta"
-```
-  - Direct (no jump host)
+  1. Push bundle(s) to first 
 ```
   sudo chown -R core /tmp/bundle
   rsync --progress -avzh /tmp/bundle \
