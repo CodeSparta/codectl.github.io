@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "CodeSparta is a customizable and extensable platform delivery as code toolbelt"
+description: "Pluggable and Extendable Restricted Platform Delivery as Code"
 permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 ---
