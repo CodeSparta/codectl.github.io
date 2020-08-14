@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AWS Development VPC
-parent: Platform Dev
+parent: Platform DevKit
 nav_order: 1
 ---
 
