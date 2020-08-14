@@ -47,8 +47,8 @@ Stages:
 [User Provisioned Infrastructure]:https://github.com/openshift/installer#supported-platforms
 [IaC]:https://www.ibm.com/cloud/learn/infrastructure-as-code
 [Infrastructure as Code]:https://www.ibm.com/cloud/learn/infrastructure-as-code
-[Low Side]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings
-[High Side]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings
+[Low-Side]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings
+[High-Side]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings
 [BASH]:https://www.gnu.org/software/bash
 [Python]:https://www.python.org
 [Golang]:https://golang.org
