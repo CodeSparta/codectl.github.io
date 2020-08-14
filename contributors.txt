@@ -1,2 +1,5 @@
 # Developers
   - [Kat Morgan](mailto:usrbinkat@braincraft.io)
+
+# Other People
+  - [Brenna Gordon](mailto:bgordon@redhat.com)
