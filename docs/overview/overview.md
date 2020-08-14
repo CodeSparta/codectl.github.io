@@ -33,9 +33,9 @@ development.
 ## Stages:
 Airgap & Restricted network delivery represent similar but critically unique
 challenges. For now Sparta delivers via an airgap only model, primarily aimed at
-pre-existing infrastructure and consisting of four distinct phases.
+pre-existing infrastructure and consisting of four distinct stages.
 
-Phases:
+Stages:
   - [Low Side] or the public internet access stage.
     1. Koffer Artifact Collection, the process of collecting and archiving all dependencies for transport
     2. "The Walk" or the disconnected transportation of artifacts through secure boundaries
@@ -48,8 +48,12 @@ Phases:
 [User Provisioned Infrastructure]:https://github.com/openshift/installer#supported-platforms
 [IaC]:https://www.ibm.com/cloud/learn/infrastructure-as-code
 [Infrastructure as Code]:https://www.ibm.com/cloud/learn/infrastructure-as-code
-[Low Side](https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings)
-[High Side](https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings)
+[Low Side]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings
+[High Side]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Use_in_classified_settings
+[BASH]:https://www.gnu.org/software/bash
+[Python]:https://www.python.org
+[Golang]:https://golang.org
+[Ansible]:https://www.ansible.com
 
 ### Architecture Diagram
 ![Diagram](./web/sparta.png)
