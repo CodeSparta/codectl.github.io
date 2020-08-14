@@ -22,7 +22,7 @@ This host must meet the following requirements:
   - Minimum of 64 GB available storage
   
 The following is recommended for the host:
-  - [RHEL8] bare metal, cloud instance, or virtual machine
+  - Bastion: [RHEL 8] bare metal, cloud instance, or virtual machine
   - Valid host type examples: localhost, local vm, or cloud instance
   - Host Hardware Equivalent: t2.2xlarge (8 vCPU, 32GB RAM, 64GB Disk)
 
@@ -50,5 +50,5 @@ One set of Admin level AWS account credentials are required for this deployment.
 [Red Hat UPI OpenShift Web Console]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
 [AWS GovCloud Credentials Portal]:https://console.amazonaws-us-gov.com/iam/home#/security_credentials
 [AWS Commercial Credentials Portal]:https://console.aws.amazon.com/iam/home#/security_credentials
-[RHEL8]:https://access.redhat.com/downloads/content/479/ver=/rhel---8/8.2/x86_64/product-software
+[RHEL 8]:https://access.redhat.com/downloads/content/479/ver=/rhel---8/8.2/x86_64/product-software
 {: .fs-6 .fw-300 }
