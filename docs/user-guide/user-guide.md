@@ -41,9 +41,9 @@ One set of Admin level AWS account credentials are required for this deployment.
 
 ----------------------------------------------------------------
 ## Get Started:
-####  1. Low Side Prep: [Artifact Bundles](https://codectl.io/docs/user-guide/bundle)
-####  2. Move Artifacts: [AirGap Pivot](https://codectl.io/docs/user-guide/airgap)
-####  3. High Side Deploy: [CloudCtl Konductor](https://codectl.io/docs/user-guide/deploy)
+####  1. [Low Side Koffer Artifact Bundle](https://codectl.io/docs/user-guide/bundle)
+####  2. [AirGap Artifact Walk](https://codectl.io/docs/user-guide/airgap)
+####  3. [High Side CloudCtl Konductor Deploy](https://codectl.io/docs/user-guide/deploy)
 
 [RH CoreOS]:https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/latest/latest
 [Podman Installed]:https://podman.io/getting-started/installation.html
