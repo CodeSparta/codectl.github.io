@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Platform Dev
+title: Platform DevKit
 nav_order: 6
 has_children: true
 permalink: /docs/dev/platform
