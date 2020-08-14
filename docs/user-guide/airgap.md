@@ -12,7 +12,7 @@ nav_order: 3
 >  - rsync
 >  - physical media
 >
-> Key:
+> Glossary:
 >  - `keyname` is the aws ssh key used to provision bastion & registry nodes
 >  - `rhel_bastion_public_ip` the public IP of your rhel bastion
 >  - `rhcos_private_registry_node_ip` is the rhcos registry node private ip
