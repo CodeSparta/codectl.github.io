@@ -5,10 +5,7 @@ parent: User Guide
 nav_order: 3
 ---
 
-# AirGap
-## Artifact Walk
-    
->
+# AirGap Artifact Walk
 > Valid strategies include `{scp,rsync,s3,physical media}`
 >    
 
