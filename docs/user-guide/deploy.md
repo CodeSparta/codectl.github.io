@@ -6,8 +6,7 @@ nav_order: 4
 ---
 
 # High Side Deployment
-> On the private registry node
->
+### On the private registry node
 
   1. Acquire root
 ```
