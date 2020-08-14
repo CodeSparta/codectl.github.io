@@ -14,11 +14,9 @@ This guide provides brief instructions on the basic Sparta platform delivery met
 ## Requirements
 
 ### Amazon AWS Requirements
-
   1. User Provisioned AWS VPC Infrastructure
->  Option a. [Sparta DevKit VPC]
->
-
+  - Option a. [Sparta DevKit VPC]
+    
   2. Admin Privileged AWS account keys
   - AWS Commercial account ([AWS Commercial Credentials Portal])
     - Access Key ID
@@ -28,17 +26,16 @@ This guide provides brief instructions on the basic Sparta platform delivery met
     - Secret Access Key
 
 ### User Provided Low-Side Unrestricted Prep Node
-  3. The deployment process requires an initial unsecured, public network artifact collection host where all dependencies are collected. 
->  This host must meet the following requirements:
->    - [Podman Installed]
->    - Access to Internet
->    - Minimum of 64 GB available storage
-  
->  The following is recommended for the host:
->    - RHEL 8: bare metal, cloud instance, or virtual machine
->    - Valid host type examples: localhost, local vm, or cloud instance
->    - Host Hardware Equivalent: t2.2xlarge (8 vCPU, 32GB RAM, 64GB Disk)
->  
+  3. Unsecured, public network artifact collection host
+  - This host must meet the following requirements:
+    - [Podman Installed]
+    - Access to Internet
+    - Minimum of 64 GB available storage
+    
+  - The following is recommended for the host:
+    - RHEL 8: bare metal, cloud instance, or virtual machine
+    - Valid host type examples: localhost, local vm, or cloud instance
+    - Host Hardware Equivalent: t2.2xlarge (8 vCPU, 32GB RAM, 64GB Disk)
 
 ### Red Hat Credentials
   4. A Quay pull secret is required for the registry, and can be found at the [Red Hat UPI OpenShift Web Console].
