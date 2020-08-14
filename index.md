@@ -14,8 +14,7 @@ Platform Delivery as Code Ecosystem
 {: .fs-6 .fw-300 }
 
 [Find on GitHub](https://github.com/CodeSparta){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
-or 
-[Get Started](https://codectl.io/docs/user-guide){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }    
+[Build OpenShift](https://codectl.io/docs/user-guide){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }    
 
 ---
 #### Red Hat OpenShift Airgap Platform Delivery as Code
@@ -38,16 +37,15 @@ features.
   - Azure Gov
   - Bare Metal
   - VMWare
+    
 
-[Podman Installed]:https://podman.io/getting-started/installation.html
-[air gap]:https://en.wikipedia.org/wiki/Air_gap_(networking)#Examples
-[Environment Considerations]:staging/considerations/
-[HERE]:AWS_WORKAROUND.md
-[Red Hat UPI OpenShift Web Console]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
-[AWS GovCloud Credentials Portal]:https://console.amazonaws-us-gov.com/iam/home#/security_credentials
-[AWS Commercial Credentials Portal]:https://console.aws.amazon.com/iam/home#/security_credentials
 [RHEL8]:https://access.redhat.com/downloads/content/479/ver=/rhel---8/8.2/x86_64/product-software
 [RH CoreOS]:https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/latest/latest/
+[AWS Commercial Credentials Portal]:https://console.aws.amazon.com/iam/home#/security_credentials
+[AWS GovCloud Credentials Portal]:https://console.amazonaws-us-gov.com/iam/home#/security_credentials
+[Red Hat UPI OpenShift Web Console]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
+[Podman Installed]:https://podman.io/getting-started/installation.html
+[air gap]:https://tinyurl.com/yyrygo74
 
 ---
 ### Contributors:
