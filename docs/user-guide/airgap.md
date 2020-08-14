@@ -13,9 +13,9 @@ nav_order: 3
 >  - physical media
 >
 > Key:
->  - `${keyname}` is the aws ssh key used to provision bastion & registry nodes
->  - `${rhel_bastion_public_ip}` the public IP of your rhel bastion
->  - `${rhcos_private_registry_node_ip}` is the rhcos registry node private ip
+>  - `keyname` is the aws ssh key used to provision bastion & registry nodes
+>  - `rhel_bastion_public_ip` the public IP of your rhel bastion
+>  - `rhcos_private_registry_node_ip` is the rhcos registry node private ip
 >    
 
   0. Set Permissions on bundle(s)
