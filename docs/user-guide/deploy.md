@@ -5,19 +5,19 @@ parent: User Guide
 nav_order: 4
 ---
 
-# Deploy
-## RedHat OpenShift 4.5+ | AirGaped | High Side Infrastructure Deployment
-### [CloudCtl] + [Konductor]    
+# High Side Deployment
+> On the private registry node
+>
 
-  1. Acquire Root
+  1. Acquire root
 ```
  sudo -i
 ```
-  2. Prepare Variables
+  2. Assign variables
 ```
  vi answer.sh
 ```
-  3. CloudCtl Standup & Run Konductor
+  3. Run [Konductor]
 ```
  ./konductor.sh
 ```
