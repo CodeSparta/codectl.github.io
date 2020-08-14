@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 # AirGap Artifact Walk
-> Valid strategies include `{scp,rsync,s3,physical media}`
+> Valid strategies include `{scp,rsync,s3,physical media}`    
 > Key:
 >  - `${keyname}` is the aws ssh key used to provision bastion & registry nodes
 >  - `${rhel_bastion_public_ip}` the public IP of your rhel bastion
