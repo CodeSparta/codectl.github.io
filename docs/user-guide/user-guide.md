@@ -8,27 +8,29 @@ permalink: /docs/user-guide
 
 ## User Guide
 The Sparta platform delivery ecosystem is maintained by contributors from Red Hat Consulting.
-This guide provides brief instructions on basic Sparta platform delivery instructions to prepare & provision an airgapped OpenShift on AWS Gov Cloud deployment.
+This guide provides brief instructions on basic Sparta platform delivery instructions to prepare and provision an airgapped Red Hat OpenShift deployment on AWS GovCloud.
 
+----------------------------------------------------------------
 ## Requirements
 
-### Low Side Workstation Host
-The deployment process requires an initial unsecured public networked workstation host where all artifacts are collected. This host must meet the following requirements:
+### Low-Side Workstation Host
+The deployment process requires an initial unsecured, public network workstation host where all artifacts are collected. 
 
+This host must meet the following requirements:
   - [Podman Installed]
   - Access to Internet
   - Minimum of 64 GB available storage
-  - Recommended:
-    - [RHEL8] or [RH CoreOS]: bare metal, cloud instance, or virtual machine
-    - Valid host type examples: localhost, local vm, or cloud instance
-    - Host Hardware Equivalent: t2.2xlarge {8 vCPU, 32GB RAM}
+  
+The following is recommended for the host:
+  - [RHEL8] or [RH CoreOS]: bare metal, cloud instance, or virtual machine
+  - Valid host type examples: localhost, local vm, or cloud instance
+  - Host Hardware Equivalent: t2.2xlarge (8 vCPU, 32GB RAM)
 
 ### Red Hat Credentials
 A Quay pull secret is required for the registry, and can be found at the [Red Hat UPI OpenShift Web Console].
 
 ### AWS Credentials
 One set of Admin level AWS account credentials are required for this deployment.    
-  (Commercial or GovCloud)
     
   - AWS Commercial account ([AWS Commercial Credentials Portal])
     - Access Key ID
