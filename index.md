@@ -56,12 +56,6 @@ orchestrate the CloudCtl deployment services pod to augment cloud native feature
   </li>
 {% endfor %}
 </ul>
-
 ### License
-CodeSparta is distributed by an [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
-
-### Code of Conduct
-Just the Docs is committed to fostering a welcoming community.
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
-
+CodeSparta is distributed under the [MIT license](https://github.com/redshiftofficial/redshiftofficial.github.io/tree/master/LICENSE.txt).
 CodeSparta is &copy; 2020-{{ "now" | date: "%Y" }} by [ContainerCraft.io](https://containercraft.io).
