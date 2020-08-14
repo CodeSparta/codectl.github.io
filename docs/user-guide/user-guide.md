@@ -8,7 +8,7 @@ permalink: /docs/user-guide
 
 ## User Guide
 The Sparta platform delivery ecosystem is maintained by contributors from Red Hat Consulting.
-This guide provides brief instructions on basic Sparta platform delivery instructions to prepare and provision an airgapped Red Hat OpenShift deployment on AWS GovCloud.
+This guide provides brief instructions on the basic Sparta platform delivery method to prepare and provision an airgapped Red Hat OpenShift deployment on AWS GovCloud.
 
 ----------------------------------------------------------------
 ## Requirements
