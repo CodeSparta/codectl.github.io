@@ -14,12 +14,12 @@ This guide provides brief instructions on the basic Sparta platform delivery met
 ## Requirements
 
 ### Amazon AWS Requirements
-  0. Red Hat OpenShift Minimum Requirements
+  1. Red Hat OpenShift Minimum Requirements
   - AWS ([Minimum Requirements])
-  1. User Provisioned AWS VPC Infrastructure
+  2. User Provisioned AWS VPC Infrastructure
   - Optional: Developer VPC ([Sparta DevKit VPC])
     
-  2. Admin Privileged AWS account keys
+  3. Admin Privileged AWS account keys
   - AWS Commercial account ([AWS Commercial Credentials Portal])
     - Access Key ID
     - Secret Access Key
@@ -28,7 +28,7 @@ This guide provides brief instructions on the basic Sparta platform delivery met
     - Secret Access Key
 
 ### User Provided Low-Side Unrestricted Prep Node
-  3. Unsecured, public network artifact collection host
+  4. Unsecured, public network artifact collection host
   - This host must meet the following requirements:
     - [Podman Installed]
     - Access to Internet
