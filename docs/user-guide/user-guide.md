@@ -18,7 +18,7 @@ This guide provides brief instructions on the basic Sparta platform delivery met
   1. Red Hat OpenShift Minimum Requirements    
   - [AWS Minimum Requirements](https://tinyurl.com/yyb89pec)
   2. User Provisioned AWS VPC Infrastructure    
-  - Optional: Developer VPC [Sparta DevKit VPC]:https://codectl.io/docs/developer/aws-vpc
+  - Optional: Developer VPC [Sparta DevKit VPC](https://codectl.io/docs/developer/aws-vpc)
     
   3. Admin Privileged AWS account keys    
   - AWS Commercial account Key Secret & ID Pair ([AWS Commercial Credentials Portal])    
