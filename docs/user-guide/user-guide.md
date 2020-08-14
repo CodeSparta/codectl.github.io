@@ -19,9 +19,9 @@ This guide provides brief instructions on the basic Sparta platform delivery met
   2. User Provisioned AWS VPC Infrastructure
     - Optional: Developer VPC ([Sparta DevKit VPC])
     
-  3. Admin Privileged AWS account keys
-    - AWS Commercial account Key Secret & ID Pair ([AWS Commercial Credentials Portal])
-    - AWS GovCloud account Key Secret & ID Pair ([AWS GovCloud Credentials Portal])
+  3. Admin Privileged AWS account keys    
+    - AWS Commercial account Key Secret & ID Pair ([AWS Commercial Credentials Portal])    
+    - AWS GovCloud account Key Secret & ID Pair ([AWS GovCloud Credentials Portal])    
 
 ### User Provided Low-Side Unrestricted Prep Node
   4. Unsecured, public network artifact collection host
