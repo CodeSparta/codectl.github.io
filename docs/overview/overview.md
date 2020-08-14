@@ -19,8 +19,8 @@ which provides more flexibility by deploying OpenShift to a prerequisite of user
 provided infrastructure at the cost of more deployment and lifecycle user responsibility.
 
 Sparta delivers an alternate opinionated 'IPI' like OpenShift delivery
-experience with restricted target environment support exposed by wrapping the
-UPI process in an ecosystem of UPI delivery tooling.
+experience with first class restricted target environment support exposed by 
+wrapping the UPI process in an ecosystem of UPI delivery tooling.
 
 ## How?
 Sparta leverages containerized runtimes for executing [Infrastructure as Code] (IAC)
