@@ -5,7 +5,8 @@ parent: User Guide
 nav_order: 4
 ---
 
-# High Side Deployment
+# High-Side Deployment
+
 ### On the private registry node
 
   1. Acquire root
