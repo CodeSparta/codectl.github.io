@@ -6,18 +6,16 @@ has_children: true
 permalink: /docs/user-guide
 ---
 
-# User Guide
-
-This provides basic Koffer & Konductor automation instructions to prepare & provision a CodeSparta platform.
+## User Guide
+Basic Sparta platform deployment instructions to prepare & provision OpenShift on AWS Gov Cloud.
 
 ## Requirements
-
 ### Low Side Workstation Host
 
-The deployment process requires an initial unsecured public networked workstation host where all artifacts are collected. This host must meet the following requirements:
+The deployment process requires an initial unrestricted public network workstation host to collect all dependency artifacts. This host must meet the following minimum requirements:
 
-  - [Podman Installed]
   - Access to Internet
+  - [Podman Installed]
   - Minimum of 64 GB available storage
   - Recommended:
     - [RHEL8] or [RH CoreOS]: bare metal, cloud instance, or virtual machine
