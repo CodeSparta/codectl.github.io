@@ -5,9 +5,8 @@ parent: User Guide
 nav_order: 2
 ---
 
-# Bundle
-## Red Hat OpenShift 4.5+ | Low Side | Artifact Collection
-#### Koffer Collector Plugins
+# Low Side Artifact Bundle
+### Koffer Collector Plugins
   - [Infrastructure]    
   - [Operators]    
   - [Applications]    
@@ -26,17 +25,14 @@ sudo podman run -it --rm \
     --repo collector-operators \
     --repo collector-apps
 ```
-  - Paste [Quay.io Image Pull Secret] when prompted
     
+  3. Paste [Quay.io Image Pull Secret] when prompted
   3. Review your artifacts
 ```
- ls -lah /tmp/bundle ;
+ du -sh /tmp/bundle/*
 ```
     
-    
-#### Continue [Artifacts AirGap Pivot](https://codectl.io/docs/user-guide/airgap)
-
-
+#### Continue [Artifacts AirGap Pivot](https://codectl.io/docs/user-guide/airgap)    
 [Operators]:https://github.com/CodeSparta/collector-operators
 [Applications]:https://github.com/CodeSparta/collector-apps
 [Infrastructure]:https://github.com/CodeSparta/collector-infra
