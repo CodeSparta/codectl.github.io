@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AirGap
+title: Airgap Artifact Walk
 parent: User Guide
 nav_order: 3
 ---

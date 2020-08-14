@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bundle
+title: Low Side Bundle
 parent: User Guide
 nav_order: 2
 ---

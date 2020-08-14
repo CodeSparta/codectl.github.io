@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Deploy
+title: High Side Deploy
 parent: User Guide
 nav_order: 4
 ---
