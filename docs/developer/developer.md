@@ -8,9 +8,10 @@ permalink: /docs/dev/platform
 
 # [Sparta Platform Development Kit](https://github.com/CodeSparta/devkit)
 Example Getting Started:
-  - `git clone https://github.com/CodeSparta/devkit-vpc`
-  - `cd devkit`
-  - `modify vars in variables.tf`
-  - `./devkit-build-vpc.sh -vv -e aws_access_key=XXXX -e aws_secret_key=XXXXX -e aws_cloud_region=us-gov-west-1`
+  - `git clone git@github.com/CodeSparta/devkit.git /tmp/devkit`
+  - `cd /tmp/devkit`
+  - `./site.yml`
+  - `cd ~/Sparta/Git`
+  - `ls -lah`
 
 {: .fs-6 .fw-300 }
