@@ -26,7 +26,7 @@ nav_order: 1
 ```
 -----------------------------------------------------------------------------
 
-### Build Devkit VPC
+### Destroy Devkit VPC
   X. Exececute Teardown Script
 ```
   ./devkit-destroy-vpc.sh
