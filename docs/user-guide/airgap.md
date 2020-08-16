@@ -13,7 +13,7 @@ nav_order: 3
 >  - Physical media (e.g. DVD)
 >
 > Glossary:
->  - `keyname` is the [AWS SSH key pair](https://console.amazonaws-us-gov.com/ec2/home?region=us-gov-west-1#KeyPairs) used to provision bastion and registry nodes
+>  - `keyname` is the [AWS SSH key pair](https://console.amazonaws-us-gov.com/ec2/home?#KeyPairs) used to provision bastion and registry nodes
 >  - `rhel_bastion_public_ip` is the public IP of your RHEL bastion
 >  - `rhcos_private_registry_node_ip` is the Red Hat CoreOS (RHCOS) registry node private IP
 >    
