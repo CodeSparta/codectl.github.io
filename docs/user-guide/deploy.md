@@ -37,6 +37,7 @@ oc patch cm cloud-credential-operator-config -p '{"data":{"disabled":"true"}}' -
 ```
 oc get svc -n openshift-ingress | awk '/router-default/{print $4}'
 ```
+  8. Add Apps ELB `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
     
 [CloudCtl]:https://github.com/CodeSparta/CloudCtl
 [Konductor]:https://github.com/CodeSparta/Konductor
