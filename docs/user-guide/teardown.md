@@ -19,7 +19,7 @@ nav_order: 5
 ```
   3. Patch masters to make scheduleable
 ```
-oc patch schedulers.config.openshift.io  cluster -p '{"spec":{"mastersSchedulable":true}}'
+oc patch schedulers.config.openshift.io cluster -p '{"spec":{"mastersSchedulable":true}}' --type=merge
 ```
   4. Delete machinesets & wait for worker nodes to terminate
 ```
