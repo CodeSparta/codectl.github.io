@@ -21,11 +21,19 @@ nav_order: 4
 ```
  ./konductor.sh
 ```
-  4. Patch/Disable Cloud Credential Operator
+  4. Exec into Konductor
+```
+ podman exec -it one connect
+```
+  5. Watch Cluster Operators come online (may take 30-60 minutes)
+```
+ watch oc get co
+```
+  6. Patch/Disable Cloud Credential Operator
 ```
 oc patch cm cloud-credential-operator-config -p '{"data":{"disabled":"true"}}' -n openshift-cloud-credential-operator
 ```
-  5. Print & Load Apps ELB DNS CNAME Forwarder into apps route53 entry
+  7. Print & Load Apps ELB DNS CNAME Forwarder into apps route53 entry
 ```
 oc get svc -n openshift-ingress | awk '/router-default/{print $4}'
 ```
