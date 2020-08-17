@@ -24,7 +24,7 @@ Sparta was created to solve the problem of delivering the Red Hat [OpenShift](ht
 
 The delivery design centers around the Koffer and Konductor automation runtime
 containers as pluggable artifact collection and Infrastructure as Code (IaC) delivery engines, which
-orchestrate the CloudCtl deployment services pod to augment cloud native features.
+orchestrates the CloudCtl deployment services pod to augment cloud native features.
 
 ---
 #### Supported Environments
