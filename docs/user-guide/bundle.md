@@ -22,7 +22,8 @@ sudo podman run -it --rm \
     --privileged --device /dev/fuse \
     --volume /tmp/bundle:/root/deploy/bundle:z \
   docker.io/codesparta/koffer bundle \
-    --repo collector-infra
+    --repo collector-infra \
+    --repo collector-operators
 ```
     
   3. Paste [Quay.io Image Pull Secret] when prompted
