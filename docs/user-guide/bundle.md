@@ -20,7 +20,7 @@ nav_order: 2
 ```
 sudo podman run -it --rm \
     --volume /tmp/bundle:/root/deploy/bundle:z \
-  docker.io/codesparta/koffer bundle \
+  docker.io/codesparta/koffer:4.5.6 bundle \
     --repo collector-infra
 ```
     
