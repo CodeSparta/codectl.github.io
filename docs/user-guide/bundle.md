@@ -18,7 +18,7 @@ nav_order: 2
 ```
   2. Build OpenShift Infrastructure, Operators, and App Bundles
 ```
-sudo podman run -it --rm \
+sudo podman run -it --rm --pull always \
     --volume /tmp/bundle:/root/deploy/bundle:z \
   docker.io/codesparta/koffer:4.5.6 bundle \
     --repo collector-infra
