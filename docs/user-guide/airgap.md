@@ -46,8 +46,6 @@ nav_order: 3
 ```
   sudo mkdir -p /root/deploy/mirror
   sudo tar xv -f ${HOME}/bundle/koffer-bundle.openshift-*.tar         -C /root
-  sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-operators.tar -C /root
-  sudo tar xv -f ${HOME}/bundle/koffer-bundle.collector-apps.tar      -C /root
 ```
 ## Continue [High-Side Deploy]    
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
