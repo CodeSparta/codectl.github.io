@@ -21,7 +21,7 @@ nav_order: 2
 sudo podman run -it --rm --pull always \
     --volume $(pwd)/bundle:/root/deploy/bundle:z \
   docker.io/codesparta/koffer bundle \
-        --config https://git.io/JUzf0
+    --config https://git.io/JUzf0
 ```
     
   3. Paste [Quay.io Image Pull Secret] when prompted
