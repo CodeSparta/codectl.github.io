@@ -1,7 +1,7 @@
 ---
 layout: default
 title: VPC Teardown
-parent: User Guide
+parent: nightlies
 nav_order: 5
 ---
 

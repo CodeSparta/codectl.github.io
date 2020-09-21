@@ -1,7 +1,7 @@
 ---
 layout: default
 title: High Side Deploy
-parent: User Guide
+parent: nightlies
 nav_order: 4
 ---
 

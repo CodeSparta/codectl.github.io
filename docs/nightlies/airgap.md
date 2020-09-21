@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Airgap Artifact Walk
-parent: User Guide
+parent: nightlies
 nav_order: 3
 ---
 
