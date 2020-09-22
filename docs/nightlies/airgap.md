@@ -20,11 +20,11 @@ nav_order: 3
 
   0. Set Permissions on bundle(s)
 ```
-  sudo chown -R $USER /tmp/bundle
+  sudo chown -R $USER $(pwd)/bundle
 ```
   1. Push bastion SSH keys to RHEL bastion
 ```
-  scp -i ~/.ssh/${keyname} ~/.ssh/${keyname}* ec2-user@${rhel_bastion_public_ip}:~/.ssh/
+  scp -i ~/.ssh/${keyname}* ec2-user@${rhel_bastion_public_ip}:~/.ssh/
 ```
   2. Push artifact bundles to RHEL bastion
 ```

@@ -11,7 +11,8 @@ nav_order: 2
   - [Operators]    
   - [Applications]    
     
-### Run on the low-side connected instance
+### Run on public facing bastion instance
+  0. Ensure [Podman](https://podman.io/getting-started/installation.html) is installed
   1. Create Platform Artifacts Staging Directory
 ```
  mkdir -p $(pwd)/bundle ;
