@@ -23,7 +23,7 @@ nav_order: 2
 
   1. Push AWS SSH keys to RHEL Bastion
 ```
-  scp -i ~/.ssh/${keyname}* ec2-user@${rhel_bastion_public_ip}:~/.ssh/
+  scp -i ~/.ssh/${keyname} ~/.ssh/${keyname}* ec2-user@${rhel_bastion_public_ip}:~/.ssh/
 ```
   2. SSH to the RHEL bastion
 ```
