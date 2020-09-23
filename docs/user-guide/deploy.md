@@ -29,15 +29,11 @@ nav_order: 4
 ```
  watch oc get co
 ```
-  6. Patch/Disable Cloud Credential Operator
-```
-oc patch cm cloud-credential-operator-config -p '{"data":{"disabled":"true"}}' -n openshift-cloud-credential-operator
-```
-  7. Print & Load Apps ELB DNS CNAME Forwarder into apps route53 entry
+  6. Print & Load Apps ELB DNS CNAME Forwarder into apps route53 entry
 ```
 oc get svc -n openshift-ingress | awk '/router-default/{print $4}'
 ```
-  8. Add Apps ELB `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
+  7. Add Apps ELB `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
     
 [CloudCtl]:https://github.com/CodeSparta/CloudCtl
 [Konductor]:https://github.com/CodeSparta/Konductor
