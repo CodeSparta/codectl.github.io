@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Low Side Bundle
-parent: User Guide
+parent: nightlies
 nav_order: 2
 ---
 
