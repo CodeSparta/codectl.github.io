@@ -3,6 +3,6 @@ koffer:
   plugins:
     collector-infra:
       branch: master
-      version: 4.5.11
+      version: 4.5.6
       service: github.com
       organization: codesparta
