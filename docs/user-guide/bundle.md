@@ -44,7 +44,7 @@ nav_order: 2
 ```
 sudo podman run -it --rm --pull always \
     --volume $(pwd)/bundle:/root/deploy/bundle:z \
-  docker.io/codesparta/koffer bundle \
+  docker.io/codesparta/koffer:4.5.11 bundle \
     --config https://codectl.io/docs/config/stable/sparta.yml
 ```
   6. Paste [Quay.io Image Pull Secret] when prompted    
