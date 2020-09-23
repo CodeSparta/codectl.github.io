@@ -2,6 +2,7 @@ koffer:
   silent: false
   plugins:
     collector-infra:
-      branch: 4.5.11
+      branch: master
+      version: 4.5.11
       service: github.com
       organization: codesparta
