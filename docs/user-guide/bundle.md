@@ -21,7 +21,7 @@ nav_order: 2
     
 ### Run on local system
 
-  1. Push AWS SSH keys to RHEL Bastion
+  1. Push AWS SSH keys to "low side" RHEL Bastion
 ```
   scp -i ~/.ssh/${keyname} ~/.ssh/${keyname}* ec2-user@${rhel_bastion_public_ip}:~/.ssh/
 ```
@@ -30,7 +30,7 @@ nav_order: 2
   ssh -i ~/.ssh/${keyname} ec2-user@${rhel_bastion_public_ip}
 ```
     
-### Run on public facing bastion instance
+### Run on "low side" public facing RHEL Bastion
 
   3. Ensure [Podman](https://podman.io/getting-started/installation.html) is installed
 ```
