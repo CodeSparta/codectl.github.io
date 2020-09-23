@@ -17,18 +17,18 @@ nav_order: 3
 >  - `rhcos_private_registry_node_ip` your Red Hat CoreOS (RHCOS) registry node [private IP](https://console.amazonaws-us-gov.com/ec2/home?#Instances)
 >    
 
-### Run on public facing bastion instance
-  1. Push artifact bundles to RHCOS private registry node
+### Run on "low side" public facing bastion
+  1. Push artifact bundles to "high side" RHCOS private registry node
 ```
   rsync --progress -avzh bundle -e "ssh -i ~/.ssh/${keyname}" core@${rhcos_private_registry_node_ip}:~
 ```
-  2. SSH to the RHCOS private registry node
+  2. SSH to the "high side" RHCOS CloudCtl private deployment services node
 ```
   ssh -i ~/.ssh/${keyname} core@${rhcos_private_registry_node_ip}
 ```
   3. Extract bundles
 ```
-  sudo mkdir -p /root/deploy && sudo tar xv -f ${HOME}/bundle/koffer-bundle.*.tar -C /root
+  sudo tar xv -f ${HOME}/bundle/koffer-bundle.*.tar -C /root
 ```
 ## Continue [High-Side Deploy]    
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
