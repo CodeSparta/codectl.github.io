@@ -45,7 +45,7 @@ nav_order: 2
 podman run -it --rm --pull always \
     --volume ${HOME}/bundle:/root/bundle:z \
   docker.io/containercraft/koffer:4.5.14 bundle \
-    --plugin openshift
+    --config https://codectl.io/docs/config/stable/sparta.yml
 ```
   6. Paste [Quay.io Image Pull Secret] when prompted    
   7. Set Permissions on bundle(s)
