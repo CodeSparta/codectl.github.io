@@ -42,10 +42,10 @@ nav_order: 2
 ```
   5. Build OpenShift Infrastructure, Operators, and App Bundles
 ```
-sudo podman run -it --rm --pull always \
-    --volume $(pwd)/bundle:/root/deploy/bundle:z \
-  docker.io/codesparta/koffer:4.5.11 bundle \
-    --config https://codectl.io/docs/config/stable/sparta.yml
+podman run -it --rm --pull always \
+    --volume ${HOME}/bundle:/root/bundle:z \
+  docker.io/containercraft/koffer:4.5.14 bundle \
+    --plugin openshift
 ```
   6. Paste [Quay.io Image Pull Secret] when prompted    
   7. Set Permissions on bundle(s)

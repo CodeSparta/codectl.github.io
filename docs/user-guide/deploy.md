@@ -23,7 +23,7 @@ nav_order: 4
 ```
   4. Exec into Konductor
 ```
- podman exec -it one connect
+ podman exec -it konductor connect
 ```
   5. Watch Cluster Operators come online (may take 30-60 minutes)
 ```

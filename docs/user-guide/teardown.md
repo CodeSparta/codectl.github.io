@@ -11,11 +11,11 @@ nav_order: 5
 
   1. Exec into container
 ```
- sudo podman exec -it one bash
+ sudo podman exec -it konductor bash
 ```
   2. Change dir into Terraform Directory
 ```
- cd /root/deploy/terraform/shaman
+ cd /root/platform/iac/shaman
 ```
   3. Patch masters to make scheduleable
 ```
