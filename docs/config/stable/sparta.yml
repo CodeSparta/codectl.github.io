@@ -1,7 +1,7 @@
 koffer:
   silent: false
   plugins:
-    collector-infra:
-      version: 4.5.11
+    openshift:
+      version: 4.5.14
       service: github.com
       organization: codesparta
