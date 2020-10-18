@@ -1,7 +1,11 @@
 koffer:
   silent: false
   plugins:
-    collector-cloudctl:
-      branch: master
+    openshift:
+      version: 4.5.14
+      service: github.com
+      organization: codesparta
+    collector-infra:
+      version: 4.5.14
       service: github.com
       organization: codesparta
