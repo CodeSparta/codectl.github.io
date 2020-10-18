@@ -6,6 +6,6 @@ koffer:
       service: github.com
       organization: codesparta
     collector-infra:
-      version: 4.5.14
+      version: master
       service: github.com
       organization: codesparta
