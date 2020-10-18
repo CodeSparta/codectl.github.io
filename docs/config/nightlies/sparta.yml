@@ -1,6 +1,10 @@
 koffer:
   silent: false
   plugins:
+    cloudctl:
+      version: master
+      service: github.com
+      organization: containercraft
     openshift:
       version: master
       service: github.com
