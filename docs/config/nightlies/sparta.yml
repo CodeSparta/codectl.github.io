@@ -2,7 +2,7 @@ koffer:
   silent: false
   plugins:
     openshift:
-      version: 4.5.14
+      version: master
       service: github.com
       organization: codesparta
     collector-infra:
