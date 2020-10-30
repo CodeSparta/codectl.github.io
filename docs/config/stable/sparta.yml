@@ -2,6 +2,6 @@ koffer:
   silent: false
   plugins:
     openshift:
-      version: 4.5.16
+      version: 4.6.1
       service: github.com
       organization: codesparta

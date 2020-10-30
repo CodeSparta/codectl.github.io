@@ -14,7 +14,7 @@ nav_order: 1
 ### Build Devkit VPC
   1. Clone Repo
 ```
-  git clone --branch 4.5.16 https://github.com/CodeSparta/devkit-vpc.git && cd devkit-vpc
+  git clone --branch 4.6.1 https://github.com/CodeSparta/devkit-vpc.git && cd devkit-vpc
 ```
   2. Configure variables
 ```
@@ -22,7 +22,8 @@ nav_order: 1
 ```
   4. Exec into Konductor IaC Runtime
 ```
-  ./devkit-build-vpc.sh -vv -e aws_access_key=xxxxxxxxxxxxx -e aws_secret_key=XXXXXXXXXXXXXXXXX -e aws_cloud_region=us-gov-west-1
+  ./devkit-build-vpc.sh -vv -e aws_cloud_region=us-gov-west-1 \
+      -e aws_access_key=xxxxxxxxxxxxx -e aws_secret_key=XXXXXXXXXXXXXXXXX
 ```
 -----------------------------------------------------------------------------
 
