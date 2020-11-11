@@ -4,8 +4,8 @@ title: Operators
 parent: Collector Plugins
 nav_order: 2
 ---
-
-# [Operators](https://github.com/redshiftofficial/collector-operators)
+# OUT OF DATE
+# [Operators](https://github.com/CodeSparta/collector-operators)
 ## AirGap Operator Hub Artifacts
 ## Provides
 This automation provides a unified and standardized tarball of artifacts for
@@ -24,14 +24,14 @@ Features:
   - High side artifacts served via generic docker registry container
 
 ## Instructions:
-### 0. First Run: [collector-infra](https://repo1.dsop.io/dsop/redhat/platformone/ocp4x/ansible/collector-infra)
+### 0. First Run: [collector-infra](https://github.com/CodeSparta/collector-ocp)
 ### 1. Run Koffer Engine
 ```
  sudo podman run -it --rm \
      --privileged --device /dev/fuse \
      --entrypoint=/usr/bin/entrypoint \
      --volume /tmp/platform:/root/deploy:z \
-   docker.io/containercraft/koffer:nightlies \
+   docker.io/CloudCtl/koffer \
    https://repo1.dsop.io/dsop/redhat/platformone/ocp4x/ansible/collector-operators.git master
 ```
 ### 2. Move Koffer Bundle to restricted environment target host `/tmp` directory
