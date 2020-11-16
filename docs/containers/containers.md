@@ -6,7 +6,7 @@ permalink: /docs/containers
     
 ## Core Utilities
 | Service | Build Status | Image Size | DockerHub Pulls |
-|:----|:---|:---|:---|
+|:------------|:------------|:----------------|:------------------|
 | [Koffer] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/koffer/koffer/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/koffer?label=Size&style=plastic) | ![Docker Pulls](https://img.shields.io/docker/pulls/cloudctl/koffer?label=DockerHub%20Pulls&style=plastic) |
 |[Konductor] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/konductor/konductor/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/konductor?label=Size&style=plastic) | ![Docker Pulls](https://img.shields.io/docker/pulls/cloudctl/konductor?label=DockerHub%20Pulls&style=plastic) |
 
