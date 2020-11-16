@@ -8,13 +8,13 @@ permalink: /docs/containers
 _
 ## Core Utilities
 | Service | Build Status | Image Size | DockerHub Pulls |
-| :-: | :-- | :-- | :-- |
+|:---:|:---|:---|:---|
 | [Koffer] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/koffer/koffer/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/koffer?label=Size&style=plastic) | ![Docker Pulls](https://img.shields.io/docker/pulls/cloudctl/koffer?label=DockerHub%20Pulls&style=plastic) |
 |[Konductor] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/konductor/konductor/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/konductor?label=Size&style=plastic) | ![Docker Pulls](https://img.shields.io/docker/pulls/cloudctl/konductor?label=DockerHub%20Pulls&style=plastic) |
 
 ## CloudCtl Auxiliary Service Containers
 | Service | Build Status | Image Size | DockerHub Pulls |
-| :-: | :-- | :-- | :-- |
+|:---:|:---|:---|:---|
 | [CoreDNS] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/coredns/coredns/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/coredns?label=Size&style=plastic) | ![Docker Pulls](https://img.shields.io/docker/pulls/cloudctl/coredns?label=DockerHub%20Pulls&style=plastic) |
 | [Registry] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/registry/registry/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/registry?label=Size&style=plastic) | ![Docker Pulls](https://img.shields.io/docker/pulls/cloudctl/registry?label=DockerHub%20Pulls&style=plastic) |
 | [DHCP] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/dhcp/dhcp/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/dhcp?label=Size&style=plastic) | ![Docker Pulls](https://img.shields.io/docker/pulls/cloudctl/dhcp?label=DockerHub%20Pulls&style=plastic) |
@@ -26,7 +26,7 @@ _
 
 ## Builder Images
 | Service | Build Status | Image Size |
-| :-: | :-- | :-- |
+|:---:|:---|:---|:---|
 | [Golang] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/go-toolset/golang/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/golang?label=Size&style=plastic) |
 | [koffer-go] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/koffer-go/koffer-go/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/koffer-go?label=Size&style=plastic) |
 | [konductor-go] | ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/cloudctl/konductor-go/konductor-go/main?label=GH%20Actions&style=plastic) | ![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/cloudctl/konductor-go?label=Size&style=plastic) |
