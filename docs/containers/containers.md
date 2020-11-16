@@ -1,20 +1,11 @@
 ---
 layout: default
 title: Containers
-nav_order: 4
 has_children: true
+nav_order: 4
 permalink: /docs/containers
 ---
-
-# Containers
-
-Sparta automation runs within strategically created deployment engine containers enabling:
-  1. More portable code behind airgaps and restricted networks
-  2. Smaller code maintenance surface area
-  3. Long term stable release cuts
-  4. Consistent automation behavior
-  5. Airgap DevSecOps Pipeline Compatibility
-
+_
 ## Core Utilities
 | Service | Build Status | Image Size | DockerHub Pulls |
 | :-: | :-- | :-- | :-- |
@@ -57,5 +48,3 @@ Sparta automation runs within strategically created deployment engine containers
 [koffer-go]:https://github.com/CloudCtl/koffer-go
 [konductor-go]:https://github.com/CloudCtl/konductor-go
 [konductor-builder]:https://github.com/CloudCtl/konductor-builder
-
-{: .fs-6 .fw-300 }
