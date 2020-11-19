@@ -27,13 +27,9 @@ nav_order: 4
 ```
   5. Watch Cluster Operators come online (may take 30-60 minutes)
 ```
- watch oc get co
+watch -d -n 5 -c "oc get svc -n openshift-ingress | awk '/router-default/{print $4}' ;echo; oc get co"
 ```
-  6. Print & Load Apps ELB DNS CNAME Forwarder into apps route53 entry
-```
-oc get svc -n openshift-ingress | awk '/router-default/{print $4}'
-```
-  7. Add Apps ELB `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
+  6. Also watch for & add Apps ELB Route53 DNS CNAME `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
     
 [CloudCtl]:https://github.com/CodeSparta/CloudCtl
 [Konductor]:https://github.com/CodeSparta/Konductor
