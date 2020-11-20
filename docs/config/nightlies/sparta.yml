@@ -18,7 +18,7 @@ koffer:
       service: github.com
       organization: cloudctl
     openshift-iac:
-      version: module
+      version: master
       service: github.com
       organization: codesparta
     collector-ocp:
