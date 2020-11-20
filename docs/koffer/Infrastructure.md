@@ -25,10 +25,6 @@ Features:
 ```
  mkdir -p /tmp/platform ; \
  sudo podman run \
-     --volume /tmp/platform:/root/deploy:z     \
-     --rm -it --entrypoint=/usr/bin/entrypoint \
-   docker.io/containercraft/koffer:latest      \
-   https://repo1.dsop.io/dsop/redhat/platformone/ocp4x/ansible/collector-infra.git latest
 
 ```
 ### 2. Move Koffer Bundle to target host `${USER}` directory

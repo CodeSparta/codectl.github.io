@@ -31,7 +31,7 @@ Features:
      --privileged --device /dev/fuse \
      --entrypoint=/usr/bin/entrypoint \
      --volume /tmp/platform:/root/deploy:z \
-   docker.io/CloudCtl/koffer \
+   quay.io/CloudCtl/koffer \
    https://repo1.dsop.io/dsop/redhat/platformone/ocp4x/ansible/collector-operators.git master
 ```
 ### 2. Move Koffer Bundle to restricted environment target host `/tmp` directory

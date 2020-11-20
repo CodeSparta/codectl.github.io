@@ -9,7 +9,7 @@ nav_order: 2
 ## Maestro Plugin Driver
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/redshiftofficial/Konductor/DockerHubBuild?label=Container%20Build&style=flat-square)
 ![DockerHub Pulls](https://img.shields.io/docker/pulls/redshiftofficial/one?label=DockerHub%20Pulls&style=flat-square)    
-Find on [Docker.io](https://hub.docker.com/r/redshiftofficial/one)  &  [Quay.io](https://quay.io/repository/redshiftofficial/one)    
+Find on [quay.io](https://hub.docker.com/r/redshiftofficial/one)  &  [Quay.io](https://quay.io/repository/redshiftofficial/one)    
 Find on [GitHub](https://github.com/redshiftofficial/Konductor)    
 ## About
 Konductor provides a human workspace for DevOps dependency & control.
@@ -78,7 +78,7 @@ sudo podman run \
     --restart on-failure  --workdir /root/deploy \
     --entrypoint=/bin/entrypoint                 \
     --volume ${HOME}/.red:/root/deploy:z        \
-  docker.io/ocpredshift/konductor:latest
+  quay.io/cloudctl/konductor:latest
 ```
 ##### Exec directly:
 ```sh

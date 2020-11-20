@@ -39,7 +39,7 @@ mkdir /tmp/platform
  sudo podman run --name koffer \
     --volume /tmp/platform:/root/deploy:z     \
     --rm -it --entrypoint=/usr/bin/entrypoint \
-  docker.io/ocpredshift/koffer:latest         \
+  quay.io/cloudctl/koffer:latest         \
     https://github.com/CodeSparta/collector-infra.git latest
 ```
 ### 3. Verify Bundle
