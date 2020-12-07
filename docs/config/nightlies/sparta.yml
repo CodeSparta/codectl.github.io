@@ -16,7 +16,7 @@ provider:
 
 platform:
   openshift:
-    version: 4.6.1
+    version: 4.6.4
 
 koffer:
   silent: false
