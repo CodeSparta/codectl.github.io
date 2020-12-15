@@ -3,16 +3,11 @@
 # mkdir -p ${HOME}/bundle && \
 # podman run -it --rm --pull always \
 #     --volume ${HOME}/bundle:/root/bundle:z \
-#     --volume ${HOME}/.docker:/root/.docker:z \
-#   docker.io/cloudctl/koffer:latest bundle --silent \
+#   quay.io/cloudctl/koffer:latest bundle --silent \
 #     --config https://codectl.io/docs/config/nightlies/sparta.yml
 
 provider:
-  aws:
-    region: us-gov-west-1
-    publish: internal
-    key_id: sdfASDFasdf
-    priv key: asdfASDFasdf
+  aws: {}
 
 platform:
   openshift:
