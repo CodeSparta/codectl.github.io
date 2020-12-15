@@ -6,12 +6,15 @@
 #   quay.io/cloudctl/koffer:latest bundle --silent \
 #     --config https://codectl.io/docs/config/nightlies/sparta.yml
 
-provider:
-  aws: {}
+tpdk:
+  version: 0.12
 
 platform:
   openshift:
     version: 4.6.4
+
+provider:
+  aws: {}
 
 koffer:
   silent: false
