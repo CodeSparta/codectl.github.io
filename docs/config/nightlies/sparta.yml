@@ -11,20 +11,20 @@ tpdk:
 
 platform:
   openshift:
-    version: 4.6.4
+    version: 4.6.12
 
 provider:
   aws: {}
 
 koffer:
-  silent: false
+  silent: true
   mirror: localhost:5000
   plugins:
     cloudctl:
       version: master
       service: github.com
       organization: cloudctl
-    openshift-iac:
+    sparta:
       version: master
       service: github.com
       organization: codesparta
