@@ -28,7 +28,7 @@ nav_order: 3
 ```
   3. Extract bundles
 ```
-  sudo tar xvf ${HOME}/bundle/koffer-bundle.openshift-*.tar -C /root
+ for i in $( ls ${HOME}/bundle/* ); do sudo tar xvf ${HOME}/$i -C /root ; done
 ```
 ## Continue [High-Side Deploy]    
 [Quay.io Image Pull Secret]:https://cloud.redhat.com/openshift/install/metal/user-provisioned
