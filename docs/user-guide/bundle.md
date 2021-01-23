@@ -44,8 +44,8 @@ nav_order: 2
 ```
 podman run -it --rm --pull always \
     --volume ${HOME}/bundle:/root/bundle:z \
-  quay.io/cloudctl/koffer:4.6.4 bundle \
-    --config https://codectl.io/docs/config/stable/sparta.yml
+  quay.io/cloudctl/koffer:4.6.12 bundle \
+    --config https://codectl.io/docs/config/nightlies/sparta.yml
 ```
   6. Paste [Quay.io Image Pull Secret] when prompted    
   7. Set Permissions on bundle(s)
