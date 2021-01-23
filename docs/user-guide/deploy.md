@@ -13,23 +13,28 @@ nav_order: 4
 ```
  sudo -i
 ```
-  2. Assign variables
+  2. Run init.sh
 ```
- vi answer.sh
+ cd /root/cloudctl && ./init.sh
 ```
-  3. Run [Konductor]    
-```
- ./konductor.sh
-```
-  4. Exec into Konductor
+  3. Exec into Konductor
 ```
  podman exec -it konductor connect
 ```
-  5. Watch Cluster Operators come online (may take 30-60 minutes)
+  4. Assign variables
 ```
-watch -d -n 5 -c "oc get svc -n openshift-ingress | awk '/router-default/{print $4}' ;echo; oc get co"
+ vim /root/platform/iac/cluster-vars.yml
 ```
-  6. Also watch for & add Apps ELB Route53 DNS CNAME `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
+  5. Run sparta automation
+```
+ cd /root/platform/iac/openshift && ./site.yml
+```
+  6. Watch Cluster Operators come online (may take 30-60 minutes)
+```
+watch -d -n 5 -c "oc get svc -n openshift-ingress | awk '/router-default/{print $4}'"
+watch oc get co
+```
+  7. Also watch for & add Apps ELB Route53 DNS CNAME `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
     
 [CloudCtl]:https://github.com/CodeSparta/CloudCtl
 [Konductor]:https://github.com/CodeSparta/Konductor
