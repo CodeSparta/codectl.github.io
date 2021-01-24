@@ -1,7 +1,34 @@
+#################################################################################
+# Usage:
+# mkdir -p ${HOME}/bundle && \
+# podman run -it --rm --pull always \
+#     --volume ${HOME}/bundle:/root/bundle:z \
+#   quay.io/cloudctl/koffer:latest bundle --silent \
+#     --config https://codectl.io/docs/config/nightlies/sparta.yml
+
+tpdk:
+  version: 0.12
+
+platform:
+  openshift:
+    version: 4.6.12
+
+provider:
+  aws: {}
+
 koffer:
   silent: false
+  mirror: localhost:5000
   plugins:
-    openshift:
-      version: 4.6.4
+    cloudctl:
+      version: master
+      service: github.com
+      organization: cloudctl
+    sparta:
+      version: master
+      service: github.com
+      organization: codesparta
+    collector-ocp:
+      version: master
       service: github.com
       organization: codesparta
