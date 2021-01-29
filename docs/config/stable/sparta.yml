@@ -4,14 +4,14 @@
 # podman run -it --rm --pull always \
 #     --volume ${HOME}/bundle:/root/bundle:z \
 #   quay.io/cloudctl/koffer:latest bundle --silent \
-#     --config https://codectl.io/docs/config/nightlies/sparta.yml
+#     --config https://codectl.io/docs/config/stable/sparta.yml
 
 tpdk:
-  version: 0.12
+  version: v00.21.0128
 
 platform:
   openshift:
-    version: 4.6.12
+    version: 4.6.13
 
 provider:
   aws: {}
@@ -21,14 +21,14 @@ koffer:
   mirror: localhost:5000
   plugins:
     cloudctl:
-      version: master
-      service: github.com
+      version: v00.21.0128
       organization: cloudctl
+      service: github.com
     sparta:
-      version: master
-      service: github.com
+      version: v00.21.0128
       organization: codesparta
+      service: github.com
     collector-ocp:
-      version: master
-      service: github.com
+      version: v00.21.0128
       organization: codesparta
+      service: github.com
