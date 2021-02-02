@@ -29,10 +29,18 @@ koffer:
       organization: codesparta
       service: github.com
     collector-ocp:
-      version: v00.21.0128
+      version: v00.21.0202
       organization: codesparta
       service: github.com
+#     env:
+#       - name: "VERSION"
+#         value: "4.6.4"
 #   collector-operators:
 #     version: v00.21.0128
 #     organization: codesparta
 #     service: github.com
+#     env:
+#       - name: "WALLE"
+#         value: "true"
+#       - name: "BUNDLE"
+#         value: "true"
