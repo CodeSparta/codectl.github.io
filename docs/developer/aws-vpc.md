@@ -14,7 +14,7 @@ nav_order: 1
 ### Build Devkit VPC
   1. Clone Repo
 ```
-  git clone --branch v00.21.0128 https://github.com/CodeSparta/devkit-vpc.git && cd devkit-vpc
+  git clone --branch v00.21.0203 https://github.com/CodeSparta/devkit-vpc.git && cd devkit-vpc
 ```
   2. Configure variables
 ```
