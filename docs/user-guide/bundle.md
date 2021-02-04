@@ -40,7 +40,7 @@ nav_order: 2
 ```
  mkdir -p $(pwd)/bundle ;
 ```
-  5. Build OpenShift Infrastructure, Operators, and App Bundles
+  5. Build Koffer Bundles for CloudCtl, OCP Platform Infra, and Sparta IaC
 ```
 podman run -it --rm --pull always \
     --volume ${HOME}/bundle:/root/bundle:z \
