@@ -1,24 +1,5 @@
-#################################################################################
-# Usage:
-# mkdir -p ${HOME}/bundle && \
-# podman run -it --rm --pull always \
-#     --volume ${HOME}/bundle:/root/bundle:z \
-#   quay.io/cloudctl/koffer:latest bundle --silent \
-#     --config https://codectl.io/docs/config/nightlies/sparta.yml
-
-tpdk:
-  version: v00.21.0128
-
-platform:
-  openshift:
-    version: 4.6.13
-
-provider:
-  aws: {}
-
 koffer:
   silent: true
-  mirror: localhost:5000
   plugins:
     cloudctl:
       version: master
@@ -32,3 +13,26 @@ koffer:
       version: master
       service: github.com
       organization: codesparta
+    collector-operators:
+      version: master
+      organization: codesparta
+      service: github.com
+      env:
+        - name: "VERSION"
+          value: "candidate"
+        - name: "MIRROR"
+          value: "true"
+        - name: "WALLE"
+          value: "true"
+        - name: "BUNDLE"
+          value: "true"
+        - name: "CATALOG_MIRROR"
+          value: "localhost:5000"
+        - name: "REDHAT_OPERATORS"
+          value: "kiali-ossm,ocs-operator,quay-operator,jaeger-product,rhsso-operator,cluster-logging,servicemeshoperator,compliance-operator,elasticsearch-operator"
+        - name: "CERTIFIED_OPERATORS"
+          value: "null"
+        - name: "COMMUNITY_OPERATORS"
+          value: "null"
+        - name: "MARKET_OPERATORS"
+          value: "null"

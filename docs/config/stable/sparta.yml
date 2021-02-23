@@ -1,46 +1,26 @@
+koffer:
+  silent: false
+  plugins:
+    cloudctl:
+      version: v00.21.0128
+      service: github.com
+      organization: cloudctl
+    sparta:
+      version: v00.21.0128
+      service: github.com
+      organization: codesparta
+    collector-ocp:
+      version: v00.21.0202
+      service: github.com
+      organization: codesparta
+
 #################################################################################
 # Usage:
+#
 # mkdir -p ${HOME}/bundle && \
 # podman run -it --rm --pull always \
 #     --volume ${HOME}/bundle:/root/bundle:z \
 #   quay.io/cloudctl/koffer:latest bundle --silent \
 #     --config https://codectl.io/docs/config/stable/sparta.yml
-
-tpdk:
-  version: v00.21.0128
-
-platform:
-  openshift:
-    version: 4.6.13
-
-provider:
-  aws: {}
-
-koffer:
-  silent: false
-  mirror: localhost:5000
-  plugins:
-    cloudctl:
-      version: v00.21.0128
-      organization: cloudctl
-      service: github.com
-    sparta:
-      version: v00.21.0128
-      organization: codesparta
-      service: github.com
-    collector-ocp:
-      version: v00.21.0202
-      organization: codesparta
-      service: github.com
-#     env:
-#       - name: "VERSION"
-#         value: "4.6.4"
-#   collector-operators:
-#     version: v00.21.0202
-#     organization: codesparta
-#     service: github.com
-#     env:
-#       - name: "WALLE"
-#         value: "true"
-#       - name: "BUNDLE"
-#         value: "true"
+#
+#################################################################################
