@@ -1,3 +1,4 @@
+# podman run -it --rm --pull always --volume ${HOME}/koffer.yml:/root/.koffer/config.yml:z --volume ${HOME}/pull-secret.json:/root/.docker/config.json:z --volume ${HOME}/bundle:/root/bundle:z quay.io/cloudctl/koffer bundle
 koffer:
   silent: true
   plugins:
