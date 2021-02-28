@@ -1,6 +1,6 @@
-# podman run -it --rm --pull always --volume ${HOME}/koffer.yml:/root/.koffer/config.yml:z --volume ${HOME}/pull-secret.json:/root/.docker/config.json:z --volume ${HOME}/bundle:/root/bundle:z quay.io/cloudctl/koffer bundle
+# podman run -it --rm --pull always --volume ${HOME}/bundle:/root/bundle:z quay.io/cloudctl/koffer bundle --config://codectl.io/docs/config/nightlies/sparta.yml 
 koffer:
-  silent: true
+  silent: false
   plugins:
     sparta:
       version: master
