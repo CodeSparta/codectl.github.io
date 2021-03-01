@@ -1,4 +1,4 @@
-# podman run -it --rm --pull always --volume ${HOME}/bundle:/root/bundle:z quay.io/cloudctl/koffer bundle --config://codectl.io/docs/config/nightlies/sparta.yml 
+# podman run -it --rm --pull always --volume ${HOME}/bundle:/root/bundle:z quay.io/cloudctl/koffer bundle --config https://codectl.io/docs/config/nightlies/sparta.yml 
 koffer:
   silent: false
   plugins:
