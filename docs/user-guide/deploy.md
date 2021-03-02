@@ -35,7 +35,7 @@ nav_order: 4
 ```
   7. Also watch for & add Apps ELB Route53 DNS CNAME `*.apps.cluster.domain.com` wildcard [DNS Entry](https://console.amazonaws-us-gov.com/route53/home?#resource-record-sets)
 ```
- watch -d -n 5 -c "oc get svc -n openshift-ingress | awk '/router-default/{print $4}'"
+ oc get svc -n openshift-ingress | awk '/router-default/{print $4}'
 ```
     
 [CloudCtl]:https://github.com/CodeSparta/CloudCtl
