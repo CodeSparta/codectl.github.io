@@ -27,7 +27,7 @@ nav_order: 4
 ```
   5. Run sparta automation
 ```
- cd /root/platform/iac/openshift && ./site.yml
+ cd /root/platform/iac/sparta && ./site.yml
 ```
   6. Watch Cluster Operators come online (may take 30-60 minutes)
 ```
