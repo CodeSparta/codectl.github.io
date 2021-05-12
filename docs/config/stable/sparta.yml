@@ -3,7 +3,7 @@ koffer:
   silent: false
   plugins:
     sparta:
-      version: v00.21.0305
+      version: v00.21.0521
       service: github.com
       organization: codesparta
       env:
