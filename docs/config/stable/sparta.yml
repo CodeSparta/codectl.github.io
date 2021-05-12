@@ -20,6 +20,6 @@ koffer:
         - name: "TPDK_VERSION"
           value: "4.7.9"
         - name: "SPARTA_VERSION"
-          value: "v00.21.0305"
+          value: "v00.21.0521"
         - name: "REDHAT_OPERATORS"
           value: "null"
