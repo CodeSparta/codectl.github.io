@@ -23,6 +23,7 @@ plugin repos.
     
 ## Dependencies
   - [Install Podman]
+  - Alternate: may work with docker in most cases
 
 ## Artifact Types:
   - Git Repos
@@ -39,7 +40,7 @@ Koffer produces a standardized tarball of all artifacts on the host filesystem a
 ## Example Usage
   - Example run in unattended mode
   - Example run with local koffer.yml config
-  - Example run from [koffer-infra](https://github.com/CodeSparta/sparta) collector/site.yml 
+  - Example run from [Sparta](https://github.com/CodeSparta/sparta) collector/site.yml 
     
 ### 1. Copy & Paste your [Pull Secret] (registry credentials)
   - Koffer will use the registry credentials for container image downloads
