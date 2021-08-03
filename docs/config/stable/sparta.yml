@@ -3,7 +3,6 @@ koffer:
   silent: false
   plugins:
     sparta:
-      version: v00.21.0521
       service: github.com
       organization: codesparta
       env:
@@ -12,13 +11,13 @@ koffer:
         - name: "MIRROR"
           value: "true"
         - name: "VERSION"
-          value: "latest-4.7"
+          value: "latest-4.8"
         - name: "PROVIDER"
           value: "aws"
         - name: "RHCOS_AWS"
           value: "true"
         - name: "TPDK_VERSION"
-          value: "4.7.9"
+          value: "v00.21.0803"
         - name: "SPARTA_VERSION"
           value: "v00.21.0521"
         - name: "REDHAT_OPERATORS"
