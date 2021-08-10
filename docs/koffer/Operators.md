@@ -6,6 +6,7 @@ nav_order: 2
 ---
 
 # [Operators](https://github.com/CodeSparta/collector-operators)
+## Currently under development
 ## AirGap Operator Hub Artifacts
 ## Provides
 This automation provides a unified and standardized tarball of artifacts for
