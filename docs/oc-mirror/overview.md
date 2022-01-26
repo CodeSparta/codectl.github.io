@@ -13,4 +13,4 @@ OC Mirror is an opensource tool created efficiently move OperatorHub indexes int
 
 ----------------------------------------------------------------
 ## Get Started:
-####  1. [Install guide](https://codectl.io/docs/oc-mirror/install.adoc)
+####  1. [Install guide](https://codectl.io/docs/oc-mirror/install)
