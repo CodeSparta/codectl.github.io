@@ -1,7 +1,7 @@
 ---
 layout: default
 title: oc mirror guide
-parent: oc-mirror
+parent: OC Mirror
 nav_order: 1
 ---
 
