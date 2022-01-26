@@ -1,3 +1,10 @@
+---
+layout: default
+title: oc mirror guide
+parent: oc-mirror
+nav_order: 1
+---
+
 # oc-mirror
 
 = Installing oc-mirror on a connected node
