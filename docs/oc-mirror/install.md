@@ -183,8 +183,8 @@ metadata:
 spec:
   repositoryDigestMirrors:
   - mirrors:
-    - ocp-registry.ocp.cvn5000.navy.mil:5000/odf4
-    - ocp-registry.ocp.cvn5000.navy.mil:5000/ocs4
+    - ocp-registry.ocp.xxx.xxx.xxx:5000/odf4
+    - ocp-registry.ocp.xxx.xxx.xxx:5000/ocs4
     source: registry.redhat.io/odf4
 ---
 apiVersion: operator.openshift.io/v1alpha1
@@ -194,8 +194,8 @@ metadata:
 spec:
   repositoryDigestMirrors:
   - mirrors:
-    - ocp-registry.ocp.cvn5000.navy.mil:5000/odf4
-    - ocp-registry.ocp.cvn5000.navy.mil:5000/ocs4
+    - ocp-registry.ocp.xxx.xxx.xxx:5000/odf4
+    - ocp-registry.ocp.xxx.xxx.xxx:5000/ocs4
     source: registry.redhat.io/ocs4
 ```
 
