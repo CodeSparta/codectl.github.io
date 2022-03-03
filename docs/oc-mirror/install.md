@@ -12,29 +12,18 @@ The following procedure was tested on RHEL 8.5 and Fedora 34
 
 #### Prerequisites:
 * Docker/Podman
-* Go  (sudo dnf install go)
-* Make (sudo dnf install make)
 * https://cloud.redhat.com/openshift/install/metal/user-provisioned[Valid Pull Secret]
 
 ```
 Note: You must have a config.json in your .docker/ directory in order to successfuly pull and push the mirror images (applicable for all nodes). It is important because oc-mirror uses docker containers to pull images from a known registry and then uses a separate set of containers to push to a local or remote repository of your choosing.
 ```
 
-#### Cloning the repository
+#### OC-MIRROR download
 
-* The repository is located at https://github.com/openshift/oc-mirror :
-     - $ git clone https://github.com/openshift/oc-mirror.git
+* The repository is located at https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp-dev-preview/pre-release/ :
+     - https://mirror.openshift.com/pub/openshift-v4/clients/ocp-dev-preview/pre-release/oc-mirror.tar.gz
 
 * Please verify in your home directory that you have a .docker/config.json file that allows you to push and pull container images. (just copy and paste your keys in docker hub.)
-
-#### Building the oc-mirror operator
-* In the oc-mirror directory that was cloned, you will run the following command:
-```
-    $ make build
-```
-
-* The operator should be able to run the imageset-config.yml from the oc-mirror directory unless specified in an absolute path.
-
 
 ### Using the operator
 * In this use case, we will be pulling operator images for OCP disconnected.
