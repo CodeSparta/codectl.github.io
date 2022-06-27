@@ -7,11 +7,10 @@ permalink: /docs/sparta2
 ---
 
 ## User Guide
-Under construction
+Spata2 is the successor to the original Sparta. This revision of Sparta is geared to simplify the process to create, pull and deploy Openshift within custom disconnected environments.  
 
 ----------------------------------------------------------------
 ## Get Started:    
-####  1. [Pre-Requisites]()
-####  2. [Low-Side Artifact Bundle]()
-####  3. [Airgap Artifact Walk]()
-####  4. [High-Side Deploy]()
+####  1. [Utility container](https://codectl.io/docs/sparta2/utility-container)
+####  2. [Low-Side Artifact Bundle](https://codectl.io/docs/sparta2/low-side)
+####  3. [High-Side Deploy](https://codectl.io/docs/sparta2/high-side)
