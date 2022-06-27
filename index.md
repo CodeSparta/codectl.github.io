@@ -19,7 +19,7 @@ Airgap Platform Delivery as Code
 ---
 ## Red Hat OpenShift Platform Delivery as Code
 Sparta was created to solve the problem of delivering the Red Hat [OpenShift](https://www.openshift.com)
- Kubernetes Platform, along with an exstensible middleware and application portfolio, within restricted
+ Kubernetes Platform, along with an extensible middleware and application portfolio, within restricted
  deployment environments (e.g. behind an airgap).
 
 The delivery design centers around the Koffer and Konductor automation runtime
