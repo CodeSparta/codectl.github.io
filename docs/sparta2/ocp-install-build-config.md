@@ -1,7 +1,7 @@
 ---
 layout: default
 title: OCP Install Build Config
-parent: sparta2
+parent: Sparta 2
 nav_order: 3
 ---
 ## OCP Install Build Config Overview

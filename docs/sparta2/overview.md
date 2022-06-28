@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Spata 2
+title: Sparta 2
 nav_order: 8
 has_children: true
 permalink: /docs/sparta2
