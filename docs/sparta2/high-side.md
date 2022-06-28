@@ -1,7 +1,7 @@
 ---
 layout: default
 title: airgapped deployment
-parent: sparta2
+parent: Sparta 2
 nav_order: 3
 ---
 

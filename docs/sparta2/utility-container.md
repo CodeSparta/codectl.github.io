@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Utility Container
-parent: sparta2
+parent: Sparta 2
 nav_order: 1
 ---
 ## utility container Overview
