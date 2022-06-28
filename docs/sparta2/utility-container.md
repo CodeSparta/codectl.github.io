@@ -25,7 +25,7 @@ On an Internet connected box to build the container.
 
 ```
 git clone https://github.com/CodeSparta/utility
-cd Utility/containers/utility
+cd utility/containers/utility
 podman build -t utility .
 ```
 
