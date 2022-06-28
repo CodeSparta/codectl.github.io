@@ -37,4 +37,11 @@ bash bundle.sh
 
 When the init.sh script is finished it generates a ocp-images.tar with the images from the specified image set.
 
+There are 2 tar files to move to the airgapped environment in the following locations.
+```
+/root/utility/ocp-images.tar
+/root/utility/tar-bundles/sparta-utility.tar.gz
+
+```
+
 Running the cleanup.sh script will stop and delete the running utility container
