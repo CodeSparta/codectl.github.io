@@ -23,7 +23,7 @@ Step 2: unpack the packages to the utility directory
 
 Step 3: Move the ocp-images.tar to the utility directory
 
-`sudo mv ocp-images.tar /root/utility`
+`sudo mv ocp-images.tar /root/`
 
 Step 5: This script creates an SSH keypair and adds the public to the `authorized_keys` file of the host.
 
