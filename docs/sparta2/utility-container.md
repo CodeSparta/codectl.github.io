@@ -24,7 +24,7 @@ The build container is meant to run with the latest OpenShift packages and lates
 On an Internet connected box to build the container.
 
 ```
-git clone https://github.com/CodeSparta/Utility
+git clone https://github.com/CodeSparta/utility
 cd Utility/containers/utility
 podman build -t utility .
 ```
