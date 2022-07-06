@@ -7,7 +7,7 @@ permalink: /docs/sparta2
 ---
 
 ## User Guide
-Spata2 is the successor to the original Sparta. This revision of Sparta is geared to simplify the process to create, pull and deploy Openshift within custom disconnected environments.  
+Sparta2 is the successor to the original Sparta. This revision of Sparta is geared to simplify the process to create, pull and deploy Openshift within custom disconnected environments.  
 
 ----------------------------------------------------------------
 ## Get Started:    
