@@ -19,7 +19,7 @@ Modify the imageset-config.yaml file to include what you need for your install. 
 
 
 ## Utility container
-The utility container contains all the tools necessary to successful pull RedHat Openshift operators for an airgapped installation. Run the following commands to create the ocp-images.tar  
+The utility container contains all the tools necessary to successful pull RedHat Openshift operators for an airgapped installation. Run the following commands to create the ocp-images.tar The container must run as the root user for the containerized ansible environment to properly run.   
 
 ```
 # The quay script will create the $HOME/.docker/config.json file that is necessary for the openshift mirror to query the image repositories.
