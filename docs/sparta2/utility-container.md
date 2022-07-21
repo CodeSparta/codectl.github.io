@@ -6,7 +6,7 @@ nav_order: 1
 ---
 ## utility container Overview
 
-The utility container is the successor to the Konductor project. The container is a human friendly Red Hat UBI8 based Infrastructure-As-Code (IaC) development & deployment runtime which includes multiple cloud provider tools & DevOps deployment utilities. The utility container exists to deploy out the following containerized services in a disconnected environment by utilizing podman.
+The utility container is the successor to the Konductor project. The container is a user friendly Red Hat UBI8 based Infrastructure-As-Code (IaC) development & deployment runtime which includes multiple cloud provider tools & DevOps deployment utilities. The utility container exists to deploy out the following containerized services in a disconnected environment by utilizing podman.
 
 ## Customizable
 The build container is meant to run with the latest OpenShift packages and latest Ansible core versions. To modify OpenShift version packages you modify the ARG OCP_LIST in the Dockerfile to point to your specific mirror tar.gz files.
