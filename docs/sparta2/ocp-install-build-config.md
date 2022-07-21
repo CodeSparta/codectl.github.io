@@ -13,6 +13,7 @@ This role is used to create the starting point for a `install-config.yaml` file 
 Role Variables
 --------------
 ### CONFIG
+
 | Variable                 | Required | Default Value      |
 |--------------------------|----------|--------------------|
 | config_template          | yes      | `install-config`   |
@@ -24,6 +25,7 @@ Role Variables
 | baremetal-install-config |
 
 ### ENV
+
 | Variable                 | Required | Default Value      |
 |--------------------------|----------|--------------------|
 | install_type             | no       | `default`          |
@@ -34,17 +36,20 @@ Role Variables
 | mac_prefix               | no       | `aa:bb:cc`         |
 
 ### SECRETS
+
 | Variable                 | Required | Default Value             |
 |--------------------------|----------|---------------------------|
 | secrets_dir              | yes      | `{{ base_dir }}/secrets`  |
 
 ### REGISTRY
+
 | Variable                 | Required | Default Value              |
 |--------------------------|----------|----------------------------|
 | registry_dir             | yes      | `{{ base_dir }}/registry`  |
 | registry_port            | no       | `5000`                     |
 
 ### NETWORKING INFRA
+
 | Variable                 | Required | Default Value                   |
 |--------------------------|----------|---------------------------------|
 | management_network       | no       | `192.168.0`                     |
@@ -53,6 +58,7 @@ Role Variables
 | machine_cidr             | no       | `{{ machine_network }}.0/24`    |
 
 ### RHCOS_IMAGE_CACHE
+
 | Variable                 | Required | Default Value                   |
 |--------------------------|----------|---------------------------------|
 | rhcos_image_cache        | no       | `{{ base_dir }}/rhcos_images`   |
@@ -60,6 +66,7 @@ Role Variables
 | rhcos_bootstrap_image_sha| no       |                                 |
 
 ### OPENSHIFT
+
 | Variable                 | Required | Default Value                   |
 |--------------------------|----------|---------------------------------|
 | cluster_configs_dir      | yes      | `{{ base_dir }}/clusterconfigs` |
@@ -83,6 +90,7 @@ Include as many items under `nodes` list as needed:
 | ten_gig_mac_4            | no       | `{{ mac_prefix }}:dd:ee:8f`     |
 
 ### NETWORKING
+
 Include as many items under `networking` list as needed:
 
 | Variable                 | Required | Example Default Value           |
@@ -95,12 +103,14 @@ Include as many items under `networking` list as needed:
 | ip_prefix_length         | no       | `24`                            |
 
 ### REDFISH
+
 | Variable                 | Required | Example Default Value           |
 |--------------------------|----------|---------------------------------|
 | node_redfish_username    | no       | `redfish_user`                  |
 | node_redfish_password    | no       | `redfish_password`              |
 
 ### AWS
+
 | Variable                 | Required | Default Value           |
 |--------------------------|----------|-------------------------|
 | rhcos_ami                | yes      | `ami-0db1ef3c6695fc441` |
