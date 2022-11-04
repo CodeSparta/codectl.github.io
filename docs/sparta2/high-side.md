@@ -20,7 +20,7 @@ Once the sparta-utiltiy.tar.gz and the ocp-images.tar have been moved to the air
 
 ### Step 2: unpack the packages to the utility directory
 
-`sudo tar xvf sparta-utility.tar.gz -C /root/utility`
+`sudo tar -xvf sparta-utility.tar.gz -C /root/utility`
 
 ### Step 3: Move the ocp-images.tar to the utility directory
 
