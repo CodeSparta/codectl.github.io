@@ -39,8 +39,8 @@ When the init.sh script is finished it generates a ocp-images.tar with the image
 
 There are 2 tar files to move to the airgapped environment in the following locations.
 ```
-/root/utility/ocp-images.tar
-/root/utility/tar-bundles/sparta-utility.tar.gz
+$HOME/utility/ocp-images.tar
+$HOME/utility/tar-bundles/sparta-utility.tar.gz
 
 ```
 
